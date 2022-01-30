@@ -4,6 +4,7 @@
 scoopMain将主流bucket库（main、extras、dorado、Shovel-Ash258）的json文件镜像至国内，软件源链接反代，提升用户安装体验。
 
 合并的库有：
+
     'https://github.com/shovel-org/Base.git',
     'https://github.com/ScoopInstaller/Main.git',
     'https://github.com/ScoopInstaller/Extras.git',
