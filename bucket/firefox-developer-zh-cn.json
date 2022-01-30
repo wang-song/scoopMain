@@ -1,0 +1,55 @@
+﻿{
+    "version": "97.0b9",
+    "description": "Developer builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/zh-CN/firefox/developer/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://download-installer.cdn.mozilla.net/pub/devedition/releases/97.0b9/win64/zh-CN/Firefox%20Setup%2097.0b9.exe#/firefox-developer.7z",
+            "hash": "sha512:49f95d27cd09e57cc752ff30d206e9a65d7a841d5e5635ea085741c804972273f1305728832cf81163e064e4fb8b4ad898e9b74c4c8248e32edb78b8bc747fe3"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://download-installer.cdn.mozilla.net/pub/devedition/releases/97.0b9/win32/zh-CN/Firefox%20Setup%2097.0b9.exe#/firefox-developer.7z",
+            "hash": "sha512:44ea5d29cc02d734d569b88b1fc394a2483821c037d1cd14ae111a13622255fba79fca4c075d5d9d3ca925b40c69ee3beeb18ddba3a8df2849b58958d607164d"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-developer",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Developer Edition",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/zh-CN/aurora/_/_/_/_/update.xml",
+        "xpath": "/updates/update/patch/@URL",
+        "regex": "devedition-([\\db.]+)-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/$version/win64/zh-CN/Firefox%20Setup%20$version.exe#/firefox-developer.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/$version/win32/zh-CN/Firefox%20Setup%20$version.exe#/firefox-developer.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}
