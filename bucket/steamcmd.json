@@ -1,0 +1,29 @@
+﻿{
+    "version": "1642451655",
+    "description": "A command-line version of the Steam client",
+    "homepage": "https://developer.valvesoftware.com/wiki/SteamCMD",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://developer.valvesoftware.com/wiki/Valve_Developer_Community:Terms_of_Use"
+    },
+    "url": "https://pd.zwc365.com/http://media2.steampowered.com/client/steamcmd_win32.zip.fedbb63a27bbf6ec539810218463fb988b0ccfc5#/dl.7z",
+    "hash": "dc0b3a501370b925dd5e757b02ea681323d4072c197ed85eee68300468eb4279",
+    "bin": "steamcmd.exe",
+    "persist": [
+        "appcache",
+        "config",
+        "steamapps",
+        "userdata"
+    ],
+    "checkver": {
+        "url": "http://media2.steampowered.com/client/steam_cmd_win32",
+        "regex": "\"version\"\\s+\"(\\d+)\"[\\s\\S]*?steamcmd_win32\\.zip\\.(?<random>[a-f\\d]{40})"
+    },
+    "autoupdate": {
+        "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.$matchRandom#/dl.7z",
+        "hash": {
+            "url": "http://media2.steampowered.com/client/steam_cmd_win32",
+            "regex": "(?sm)$basename.*?$sha256"
+        }
+    }
+}
