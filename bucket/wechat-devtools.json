@@ -1,0 +1,40 @@
+﻿{
+    "version": "1.05.2201240",
+    "description": "To help developers develop and debug Weixin Mini Programs more simply and efficiently.",
+    "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=1052201240&version_type=1#/dl.7z",
+            "hash": "a83a3671935c63b13c803979df5cf31b2fda41d9ceb7b48d1f9e595fb77b8a38"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&download_version=1052201240&version_type=1#/dl.7z",
+            "hash": "7a5910721e06dd5010a5f492b107001947981046fe168d0360b88c57d33434fa"
+        }
+    },
+    "pre_install": "Remove-Item -R -Path \"$dir\\`$PLUGINSDIR\"",
+    "shortcuts": [
+        [
+            "微信开发者工具.exe",
+            "微信开发者工具"
+        ]
+    ],
+    "checkver": {
+        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+        "regex": "\\> (?<maj>\\d+)\\.(?<min>\\d+)\\.(?<patch>\\d+) \\<",
+        "replace": "${maj}.${min}.${patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&download_version=$matchMaj$matchMin$matchPatch&version_type=1#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&download_version=$matchMaj$matchMin$matchPatch&version_type=1#/dl.7z"
+            }
+        }
+    }
+}
