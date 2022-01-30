@@ -1,0 +1,55 @@
+﻿{
+    "version": "97.0b9",
+    "description": "Beta builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/zh-CN/firefox/beta/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0b9/win64/zh-CN/Firefox%20Setup%2097.0b9.exe#/firefox-beta.7z",
+            "hash": "sha512:23bd2783666f5b080fd4c23c128df087de17e3dee4999357653f6c2e86e51490ff4084fe0aa4c88a5ca0546e73052c0c52743d5086337f679d33bd10992adb43"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0b9/win32/zh-CN/Firefox%20Setup%2097.0b9.exe#/firefox-beta.7z",
+            "hash": "sha512:bd9cb4beddea7c166e7f6110bc5bede9cb68c84a4a744a9a7084e39b7bf16836e891b76972c8fcdf3a1a15d6ad87e290a68d57267b58ed547829abe9e294afc7"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-beta",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Beta",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/en-US/beta/_/_/_/_/update.xml",
+        "xpath": "/updates/update/patch/@URL",
+        "regex": "firefox-([\\db.]+)-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win64/zh-CN/Firefox%20Setup%20$version.exe#/firefox-beta.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win32/zh-CN/Firefox%20Setup%20$version.exe#/firefox-beta.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}
