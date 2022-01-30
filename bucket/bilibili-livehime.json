@@ -1,0 +1,25 @@
+﻿{
+    "homepage": "https://live.bilibili.com/liveHime",
+    "description": "BiliBili Live Streaming tool",
+    "license": "Unknown",
+    "version": "4.13.0.2923",
+    "url": "https://pd.zwc365.com/https://dl-hdslb-com.oss-cn-shanghai.aliyuncs.com/bili/bililive/win/Livehime-Win-beta-4.13.0.2923.exe",
+    "hash": "6d58e79e9f89d47d32cf05902f6c10fce83f2d3a04dca65ec4042911a77bb5bf",
+    "depends": "innounp",
+    "installer": {
+        "script": "Expand-InnoArchive -Path \"$dir\\$fname\" -Removal"
+    },
+    "shortcuts": [
+        [
+            "livehime.exe",
+            "Bilibili Live Hime"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.live.bilibili.com/client/v1/LiveHime/download?type=3",
+        "regex": "hime.*?([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dl-hdslb-com.oss-cn-shanghai.aliyuncs.com/bili/bililive/win/Livehime-Win-beta-$version.exe"
+    }
+}
