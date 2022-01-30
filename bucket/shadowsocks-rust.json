@@ -1,0 +1,31 @@
+﻿{
+    "version": "1.13.1",
+    "description": "A fast tunnel proxy",
+    "homepage": "https://shadowsocks.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.13.1/shadowsocks-v1.13.1.x86_64-pc-windows-msvc.zip",
+            "hash": "4d8f2dc1846799bd6ba648b61bcd6b22d97237aa1fb603ef8a64222bf85ba44f"
+        }
+    },
+    "bin": [
+        "sslocal.exe",
+        "ssmanager.exe",
+        "ssserver.exe",
+        "ssurl.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/shadowsocks/shadowsocks-rust"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v$version/shadowsocks-v$version.x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
