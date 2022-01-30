@@ -1,0 +1,45 @@
+﻿{
+    "homepage": "https://github.com/evanw/esbuild",
+    "description": "An extremely fast JavaScript bundler and minifier",
+    "version": "0.14.14",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.14.14.tgz",
+            "hash": "sha1:08a36844b69542f8ec1cb33a5ddcea02b9d0b2e8"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.14.14.tgz",
+            "hash": "sha1:6d293ddfb71229f21cc13d85d5d2f43e8131693b"
+        }
+    },
+    "installer": {
+        "script": [
+            "Move-Item $dir\\package\\esbuild.exe $dir",
+            "Remove-Item $dir\\package -Recurse -Force"
+        ]
+    },
+    "bin": "esbuild.exe",
+    "checkver": {
+        "url": "https://registry.yarnpkg.com/esbuild-windows-64",
+        "jsonpath": "$.dist-tags.latest"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-$version.tgz",
+                "hash": {
+                    "url": "https://registry.yarnpkg.com/esbuild-windows-64",
+                    "jsonpath": "$.versions.$version.dist.shasum"
+                }
+            },
+            "32bit": {
+                "url": "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-$version.tgz",
+                "hash": {
+                    "url": "https://registry.yarnpkg.com/esbuild-windows-32",
+                    "jsonpath": "$.versions.$version.dist.shasum"
+                }
+            }
+        }
+    }
+}
