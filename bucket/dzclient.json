@@ -1,0 +1,23 @@
+﻿{
+    "homepage": "https://dz.blizzard.cn/",
+    "description": "Warcraft III Battle Platform",
+    "license": "Freeware",
+    "version": "2.3.41",
+    "url": "https://pd.zwc365.com/https://dz.gdl.netease.com/dzclient-2.3.41.exe#/dl.7z",
+    "hash": "5fb65d4d8302e1e8e1fc9d3530d30e08cb93eb596d533558e47b15acfbe2aa67",
+    "extract_dir": "$_3_",
+    "post_install": "Remove-Item \"$dir\\`$_3_\" -Recurse",
+    "shortcuts": [
+        [
+            "Platform.exe",
+            "魔兽争霸官方对战平台"
+        ]
+    ],
+    "checkver": {
+        "url": "https://blz.nosdn.127.net/4/pf/ver/download.json",
+        "regex": "dzclient-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dz.gdl.netease.com/dzclient-$version.exe#/dl.7z"
+    }
+}
