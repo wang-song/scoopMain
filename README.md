@@ -1,41 +1,20 @@
 # scoopMain
 
 #### 介绍
-scoopMain将主流bucket库（main、extras、dorado、Shovel-Ash258）的json文件和软件源文件均镜像至国内，提升用户安装体验。
+scoopMain将主流bucket库（main、extras、dorado、Shovel-Ash258）的json文件镜像至国内，软件源链接反代，提升用户安装体验。
 
-该库仅供个人使用，切勿滥用。
+合并的库有：
+    'https://github.com/shovel-org/Base.git',
+    'https://github.com/ScoopInstaller/Main.git',
+    'https://github.com/ScoopInstaller/Extras.git',
+    'https://git.irs.sh/KNOXDEV/knox-scoop.git',
+    'https://github.com/chawyehsu/dorado.git',
+    'https://github.com/Ash258/Shovel-Ash258.git',
+    'https://github.com/scoopcn/scoopcn.git',
+    'https://github.com/ivaquero/scoopet.git',
+    'https://github.com/ZvonimirSun/scoop-iszy.git',
+    'https://github.com/echoiron/echo-scoop.git',
+    'https://github.com/kkzzhizhou/scoop-zapps.git'
 
-已屏蔽海外解析
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 感谢zwc365提供的反代服务
+反代网址：https://pd.zwc365.com/
