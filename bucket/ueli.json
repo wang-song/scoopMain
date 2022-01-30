@@ -1,0 +1,21 @@
+﻿{
+    "version": "8.19.0",
+    "description": "A keystroke launcher",
+    "homepage": "https://ueli.oliverschwendener.ch",
+    "license": "MIT",
+    "url": "https://pd.zwc365.com/https://github.com/oliverschwendener/ueli/releases/download/v8.19.0/ueli-8.19.0-win.zip",
+    "hash": "35930b335462ab2721777f5a1b5c23f2e9b04f346a409ea83de62ec88d6ed529",
+    "bin": "ueli.exe",
+    "shortcuts": [
+        [
+            "ueli.exe",
+            "ueli"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/oliverschwendener/ueli"
+    },
+    "autoupdate": {
+        "url": "https://github.com/oliverschwendener/ueli/releases/download/v$version/ueli-$version-win.zip"
+    }
+}
