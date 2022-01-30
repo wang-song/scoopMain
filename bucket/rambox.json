@@ -1,0 +1,39 @@
+﻿{
+    "version": "2.0.1",
+    "description": "Tool for organizing web apps into one application with rich features",
+    "homepage": "https://rambox.pro",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://rambox.pro/#eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/ramboxapp/download/releases/download/v2.0.1/Rambox-2.0.1-win-x64.exe#/dl.7z",
+            "hash": "sha512:89fd3eee927fba8f19b2eb49ed379a14458682a0337bf5364003537779e2a6aea265be35238331bd77a162ef286a7eff8bb34129cc241128017d71712ff16794"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "Rambox.exe",
+            "Rambox"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ramboxapp/download"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ramboxapp/download/releases/download/v$version/Rambox-$version-win-x64.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}
