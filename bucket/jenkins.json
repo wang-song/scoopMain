@@ -1,0 +1,24 @@
+﻿{
+    "version": "2.332",
+    "description": "An automation server which enables developers around the world to reliably build, test, and deploy their software.",
+    "homepage": "https://www.jenkins.io",
+    "license": "MIT",
+    "suggest": {
+        "Java 8": "java/oraclejre8",
+        "Java 11": "java/openjdk11"
+    },
+    "url": "https://pd.zwc365.com/https://get.jenkins.io/war/2.332/jenkins.war#/jenkins.jar",
+    "hash": "d3bacf4ef0be984e7bea690077bd3afd36f9933d0b62ce29b5e8afcdc0692dbe",
+    "bin": "jenkins.jar",
+    "checkver": {
+        "url": "https://www.jenkins.io/changelog/rss.xml",
+        "xpath": "/rss/channel/item/title",
+        "regex": "Jenkins ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://get.jenkins.io/war/$version/jenkins.war#/jenkins.jar",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
