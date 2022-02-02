@@ -1,6 +1,6 @@
 ﻿{
     "version": "2.0.5",
-    "description": "A Qt and C++ GUI for Rizin reverse engineering framework",
+    "description": "A Qt and C++ GUI for Rizin reverse engineering framework.",
     "homepage": "https://cutter.re",
     "license": "GPL-3.0-only",
     "architecture": {
@@ -12,7 +12,14 @@
     },
     "bin": [
         "cutter.exe",
-        "rizin.exe"
+        "rizin.exe",
+        "rz-ax.exe",
+        "rz-bin.exe",
+        "rz-diff.exe",
+        "rz-find.exe",
+        "rz-gg.exe",
+        "rz-hash.exe",
+        "rz-run.exe"
     ],
     "shortcuts": [
         [
@@ -21,7 +28,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/radareorg/cutter"
+        "github": "https://github.com/rizinorg/cutter"
     },
     "autoupdate": {
         "architecture": {
