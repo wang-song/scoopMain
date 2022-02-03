@@ -1,16 +1,16 @@
 ﻿{
-    "version": "2.10.1",
+    "version": "2.11.1",
     "description": "Manage your dotfiles across multiple diverse machines, securely.",
     "homepage": "https://chezmoi.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/twpayne/chezmoi/releases/download/v2.10.1/chezmoi_2.10.1_windows_amd64.zip",
-            "hash": "cb64bc150b4e54354870f7964a549b7ae4ff3924771bc7db3c3a8868f91816df"
+            "url": "https://pd.zwc365.com/https://github.com/twpayne/chezmoi/releases/download/v2.11.1/chezmoi_2.11.1_windows_amd64.zip",
+            "hash": "b4f7f0492aba0a2cdf699cf5f21562d702bea0db456bca84f1c75e622356a710"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/twpayne/chezmoi/releases/download/v2.10.1/chezmoi_2.10.1_windows_i386.zip",
-            "hash": "a18442c30cf0e9339d8fd2dfde55b52e041e9b0d6ab4b5209478e76ee70e21e5"
+            "url": "https://pd.zwc365.com/https://github.com/twpayne/chezmoi/releases/download/v2.11.1/chezmoi_2.11.1_windows_i386.zip",
+            "hash": "671b9ef802771ce78edbc27474ed15b7eabee5af4bda029a95f2b08f529f24a9"
         }
     },
     "bin": "chezmoi.exe",
