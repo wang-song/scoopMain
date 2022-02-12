@@ -1,16 +1,16 @@
 ﻿{
-    "version": "1.31.0",
+    "version": "1.31.2",
     "description": "Password management solutions for individuals, teams, and business organizations",
     "homepage": "https://bitwarden.com",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/bitwarden/desktop/releases/download/v1.31.0/bitwarden-1.31.0-x64.nsis.7z",
-            "hash": "sha512:ab57729400db6b082198f08b1fd40c1136b44953d592d96cde8a603e7da6d5e9d9badfa34f7944a65b92753c9ad2163edb69c926303df451ae495f2dacec7348"
+            "url": "https://pd.zwc365.com/https://github.com/bitwarden/desktop/releases/download/v1.31.2/bitwarden-1.31.2-x64.nsis.7z",
+            "hash": "sha512:f86ddf75e849ab6512151db57b522688f6a509a31f049d2d5d074d0cda2525f3758f641804e697963e2c99beaab33aac545b7f332bbc7daf5603a6f253074573"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/bitwarden/desktop/releases/download/v1.31.0/bitwarden-1.31.0-ia32.nsis.7z",
-            "hash": "sha512:c6374fda0ac7f2b3e3dd8ed96db6ec286af1e4783084f0f48da775ae6706922471b50e71d010189b664ffe621799f8ce39f1c347af58c0a82d2d54853d26203c"
+            "url": "https://pd.zwc365.com/https://github.com/bitwarden/desktop/releases/download/v1.31.2/bitwarden-1.31.2-ia32.nsis.7z",
+            "hash": "sha512:78e476ae7d5f7d007cd6e45bd17e2ded586e4c84b3ff3918c6238e0ce346fd9402ee7e207b91aded31029381080461922949a26117577febad95a813362de1b5"
         }
     },
     "bin": "Bitwarden.exe",
