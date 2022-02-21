@@ -1,12 +1,12 @@
 ﻿{
-    "version": "2.2.1",
+    "version": "2.2.3",
     "description": "Powerful markdown editor",
     "homepage": "https://www.zettlr.com",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/Zettlr/Zettlr/releases/download/v2.2.1/Zettlr-2.2.1-x64.exe#/dl.7z",
-            "hash": "7ac8c195ee958506e4d7faa5d24cf337bb0243d046e3012b007b5caa6da3be7e",
+            "url": "https://pd.zwc365.com/https://github.com/Zettlr/Zettlr/releases/download/v2.2.3/Zettlr-2.2.3-x64.exe#/dl.7z",
+            "hash": "fbc86a7bbfc59cf34c22ddc296a5eab6160038506e9ac20aa6c52418513ca69f",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
