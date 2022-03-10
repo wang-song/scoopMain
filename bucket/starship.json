@@ -1,28 +1,28 @@
 ﻿{
     "##": "TODO: Suggest rework",
-    "version": "1.3.0",
+    "version": "1.4.1",
     "description": "The minimal, blazing fast, and extremely customizable prompt for any shell",
     "homepage": "https://starship.rs",
     "license": {
         "identifier": "ISC",
         "url": "https://github.com/starship/starship/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/starship/starship/releases/tag/v1.3.0",
+    "changelog": "https://github.com/starship/starship/releases/tag/v1.4.1",
     "suggest": {
         "vcredist": "extras/vcredist2019"
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/starship/starship/releases/download/v1.3.0/starship-x86_64-pc-windows-msvc.zip",
-            "hash": "a106c9bec33333ffa78056a22f60d571b004aececea4eb32c52935daa6aced94"
+            "url": "https://pd.zwc365.com/https://github.com/starship/starship/releases/download/v1.4.1/starship-x86_64-pc-windows-msvc.zip",
+            "hash": "cc7170791c8dbc312446a140cd623e2b760986dfb32cb30a5c3c8f4a79c6fecf"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/starship/starship/releases/download/v1.3.0/starship-i686-pc-windows-msvc.zip",
-            "hash": "b3ef3a10c709bc17712b7197a9c465fc29af10ac67654c66f877c9bbf1115f0a"
+            "url": "https://pd.zwc365.com/https://github.com/starship/starship/releases/download/v1.4.1/starship-i686-pc-windows-msvc.zip",
+            "hash": "377343330ca890061a897881097f0fbb334b16bd75722a4d551d0f927a1da6c4"
         },
         "arm64": {
-            "url": "https://github.com/starship/starship/releases/download/v1.3.0/starship-aarch64-pc-windows-msvc.zip",
-            "hash": "0892e7064e50c7b27a265b06aec348bfa1614393ebe717342fec4ef0c7329423"
+            "url": "https://github.com/starship/starship/releases/download/v1.4.1/starship-aarch64-pc-windows-msvc.zip",
+            "hash": "9eaadf8f658976c5f450a1b734517fd1131189087e52fb92dccd321e73528f4f"
         }
     },
     "bin": "starship.exe",
