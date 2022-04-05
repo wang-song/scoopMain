@@ -1,16 +1,16 @@
 ﻿{
-    "version": "1.24.0",
+    "version": "1.25.0",
     "description": "Bridges between a growing number of protocols",
     "homepage": "https://github.com/42wim/matterbridge",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/42wim/matterbridge/releases/download/v1.24.0/matterbridge-1.24.0-windows-64bit.exe#/matterbridge.exe",
-            "hash": "c50a068c4972d1fefd8ec31c3c48ad97a77f3e288d9b5ffc19c6f474fc9c4037"
+            "url": "https://pd.zwc365.com/https://github.com/42wim/matterbridge/releases/download/v1.25.0/matterbridge-1.25.0-windows-64bit.exe#/matterbridge.exe",
+            "hash": "ed37464b73ebdab6d3a9dbc76cfc4cb81a00141365fac0b02f89a758031a6789"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/42wim/matterbridge/releases/download/v1.24.0/matterbridge-1.24.0-windows-32bit.exe#/matterbridge.exe",
-            "hash": "335f2ad9140bfe5858f6bf2d5a59ece933c4dac60c1569c580e3f5af78d1f96c"
+            "url": "https://pd.zwc365.com/https://github.com/42wim/matterbridge/releases/download/v1.25.0/matterbridge-1.25.0-windows-32bit.exe#/matterbridge.exe",
+            "hash": "1d4c13fa21c0b6aa8fe34ab08347c237245e4f8c52e3f4ff023929818d8f6fcf"
         }
     },
     "bin": "matterbridge.exe",
