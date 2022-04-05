@@ -1,16 +1,16 @@
 ﻿{
-    "version": "3.11.6",
+    "version": "3.11.10",
     "description": "Cross-platform, easy to use, fast and functional audio editor.",
     "homepage": "https://www.ocenaudio.com/",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://www.ocenaudio.com/downloads/ocenaudio64_portable.zip?version=v3.11.6",
-            "hash": "sha1:4ca224c3d2e6db65e9aa040d11747a9dd66ec81d"
+            "url": "https://pd.zwc365.com/https://www.ocenaudio.com/downloads/ocenaudio64_portable.zip?version=v3.11.10",
+            "hash": "sha1:b2ea51c619ec474e086594b6c488f7bdc84490d8"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://www.ocenaudio.com/downloads/ocenaudio_portable.zip?version=v3.11.6",
-            "hash": "sha1:ef7ba9d54e62baa380253c8643f7f3ef19341b19"
+            "url": "https://pd.zwc365.com/https://www.ocenaudio.com/downloads/ocenaudio_portable.zip?version=v3.11.10",
+            "hash": "sha1:666c25885c53d1940cd3d8d4e9e8ce32248b4ff2"
         }
     },
     "bin": "ocenaudio.exe",
