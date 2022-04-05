@@ -1,10 +1,10 @@
 ﻿{
-    "version": "3.7.5",
+    "version": "3.7.7",
     "description": "A faster, user-friendly and compatible grep replacement",
     "homepage": "https://github.com/Genivia/ugrep",
     "license": "BSD-3-Clause",
-    "url": "https://pd.zwc365.com/https://github.com/Genivia/ugrep/releases/download/v3.7.5/ugrep.exe#/ug.exe",
-    "hash": "13fbb9852da585f7e09e37db5d9f24f2172b56c9ea1689b15d27db5772b7d613",
+    "url": "https://pd.zwc365.com/https://github.com/Genivia/ugrep/releases/download/v3.7.7/ugrep.exe#/ug.exe",
+    "hash": "42730b0b6028b6ddb0e451d9359fa0917cec22a39ec121eeffa5e1b78c771f0e",
     "bin": [
         "ug.exe",
         [
