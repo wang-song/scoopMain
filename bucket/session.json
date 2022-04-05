@@ -1,12 +1,12 @@
 ﻿{
-    "version": "1.7.7",
+    "version": "1.7.9",
     "description": "End-to-end encrypted messenger",
     "homepage": "https://getsession.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/oxen-io/session-desktop/releases/download/v1.7.7/session-desktop-win-1.7.7.exe#/dl.7z",
-            "hash": "sha512:4a1b8be76f776146f2b3ed4560adc2b1fee1b3d8c91eef2b22725e1f4337d669aac95d33df1fb8a1d7f78188e404d13c50461299417f6b78b6e1c417d213ffa7",
+            "url": "https://pd.zwc365.com/https://github.com/oxen-io/session-desktop/releases/download/v1.7.9/session-desktop-win-1.7.9.exe#/dl.7z",
+            "hash": "sha512:f5dfdebbf3b56fe3ffa6ae20d68ed6fb3aabf365d913a851dcff552dfa5e2752773a4610eaba1743ce731da1fccd793f5c3c67b5cfa5639dabf6150e913d1478",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
