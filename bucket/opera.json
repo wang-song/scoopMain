@@ -1,5 +1,5 @@
 ﻿{
-    "version": "84.0.4316.31",
+    "version": "85.0.4341.47",
     "description": "Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://download1.operacdn.com/pub/opera/desktop/84.0.4316.31/win/Opera_84.0.4316.31_Setup_x64.exe#/dl.7z",
-            "hash": "a8b708cde27b3c0223cf6a809167a976ded7926be0b0e2ce2319dc7d27afb816"
+            "url": "https://pd.zwc365.com/https://download1.operacdn.com/pub/opera/desktop/85.0.4341.47/win/Opera_85.0.4341.47_Setup_x64.exe#/dl.7z",
+            "hash": "3b326b552c59397692d8772d32316d10be84c7b122a46f51326628bd9d714e92"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://download1.operacdn.com/pub/opera/desktop/84.0.4316.31/win/Opera_84.0.4316.31_Setup.exe#/dl.7z",
-            "hash": "70f0d2963445e2e66cb7caffee0eb3c05f0c30899583d524483c62421c5e66c1"
+            "url": "https://pd.zwc365.com/https://download1.operacdn.com/pub/opera/desktop/85.0.4341.47/win/Opera_85.0.4341.47_Setup.exe#/dl.7z",
+            "hash": "066b11e130eb5438c97a19736f228294cc9a1151c6705db2a3e90c5e38ba6ff5"
         }
     },
     "installer": {
