@@ -1,14 +1,14 @@
 ﻿{
     "##": "TODO: There will be an option for portable mode in the near future. See #3424 for details.",
-    "version": "4.8.10.188",
+    "version": "4.9.0.190",
     "description": "Relational database explorer",
     "homepage": "https://tableplus.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://tableplus.com/blog/2018/01/license-agreement.html"
     },
-    "url": "https://pd.zwc365.com/https://download.tableplus.com/windows/4.8.10/TablePlusSetup.exe",
-    "hash": "302fb4f8a1a35ca8bdf86f7fa7fcae71055e10d8a65799477b6b963b06d1b689",
+    "url": "https://pd.zwc365.com/https://download.tableplus.com/windows/4.9.0/TablePlusSetup.exe",
+    "hash": "0fbcb7d1be61dfd0254a38ec9770d24a226c6b7a4fe535666aa603d3cf3f5cf0",
     "innosetup": true,
     "architecture": {
         "64bit": {
