@@ -1,13 +1,13 @@
 ﻿{
-    "version": "2.9.0-24",
+    "version": "2.9.0-34",
     "description": "浙政钉",
     "homepage": "https://www.ding.zj.gov.cn/pc/index.html",
     "license": {
         "identifier": "Freeware"
     },
-    "url": "https://pd.zwc365.com/https://gov-cdn-pro.ding.zj.gov.cn/pc/DingTalkGov_v2.9.0-Release.24.exe#/dl.7z",
+    "url": "https://pd.zwc365.com/https://gov-cdn-pro.ding.zj.gov.cn/pc/DingTalkGov_v2.9.0-Release.34.exe#/dl.7z",
     "pre_install": "Remove-Item -R -Path \"$dir\\uninst.exe.nsis\",\"$dir\\`$PLUGINSDIR\"",
-    "hash": "c8d4413c4e906215dea4a991f8eaea18d4d3d5c902f8c79fee54513394db6d3e",
+    "hash": "aa4e655866236d8ec96226f00f347f9a70ae2607b16af14b0685859e69cd9532",
     "shortcuts": [
         [
             "DingTalkGovLauncher.exe",
