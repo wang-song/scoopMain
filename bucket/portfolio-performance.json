@@ -1,5 +1,5 @@
 ﻿{
-    "version": "0.56.6",
+    "version": "0.57.1",
     "description": "Investment portfolio performance calculator",
     "homepage": "https://www.portfolio-performance.info/en/",
     "license": "EPL-1.0",
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/buchen/portfolio/releases/download/0.56.6/PortfolioPerformance-0.56.6-win32.win32.x86_64.zip",
-            "hash": "f7754eb838107621577b634f4090068eaf2c84b664ca66fa0c4282fde9205c4c"
+            "url": "https://pd.zwc365.com/https://github.com/buchen/portfolio/releases/download/0.57.1/PortfolioPerformance-0.57.1-win32.win32.x86_64.zip",
+            "hash": "246546dcf2b4a16cdb81cbee80566368c087290eb3d2e06a5dcc65d99f7184b0"
         }
     },
     "extract_dir": "portfolio",
