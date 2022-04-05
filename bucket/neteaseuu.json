@@ -1,13 +1,13 @@
 ﻿{
     "homepage": "https://uu.163.com/",
     "description": "Game accelerator created by Netease Inc.",
-    "version": "4.19.0.4034",
+    "version": "4.21.1.4038",
     "license": {
         "identifier": "EULA",
         "url": "https://uu.163.com/agreement.html"
     },
-    "url": "https://pd.zwc365.com/https://uu.gdl.netease.com/4034/UU-4.19.0.exe#/dl.7z",
-    "hash": "01c4c6adbd63c3930be34230af72240da598277451be0f1395f25a6b800d0dff",
+    "url": "https://pd.zwc365.com/https://uu.gdl.netease.com/4038/UU-4.21.1.exe#/dl.7z",
+    "hash": "dfc6919ad34bab500c4859cd6a4c4f7b85ab7084f2eae634f16d4b143dd9e954",
     "shortcuts": [
         [
             "uu.exe",
