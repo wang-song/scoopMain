@@ -1,21 +1,21 @@
 ﻿{
-    "version": "3.2.9",
+    "version": "3.3.1",
     "description": "Workflow engine for orchestrating parallel jobs on Kubernetes",
     "homepage": "https://github.com/argoproj/argo-workflows",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/argoproj/argo-workflows/releases/download/v3.2.9/argo-windows-amd64.gz",
-            "hash": "d476d118436d0f304895f36e0a6ce142404e0b7f2e81544af152f51faa87ae65"
+            "url": "https://pd.zwc365.com/https://github.com/argoproj/argo-workflows/releases/download/v3.3.1/argo-windows-amd64.exe.gz",
+            "hash": "de42acee5f0056152d80a9d1b367e3356de167aa06d08c3e43532ba6f40d53e6"
         }
     },
-    "pre_install": "Rename-Item $dir\\argo-windows-amd64 $dir\\argo.exe",
+    "pre_install": "Rename-Item $dir\\argo-windows-amd64.exe $dir\\argo.exe",
     "bin": "argo.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/argoproj/argo-workflows/releases/download/v$version/argo-windows-amd64.gz"
+                "url": "https://github.com/argoproj/argo-workflows/releases/download/v$version/argo-windows-amd64.exe.gz"
             }
         },
         "hash": {
