@@ -1,5 +1,5 @@
 ﻿{
-    "version": "24.3",
+    "version": "24.3.3",
     "description": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
     "homepage": "https://www.erlang.org",
     "license": "Apache-2.0",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://erlang.org/download/otp_win64_24.3.exe#/dl.7z",
-            "hash": "d31ef09561a2c7f2612e1724dd888d5c38c01f1923c3cbdb4e90a942ff64a109"
+            "url": "https://pd.zwc365.com/https://erlang.org/download/otp_win64_24.3.3.exe#/dl.7z",
+            "hash": "a0572740707fc3ffff29e5d967be631c99c1edc5db84ea099b21cbccc424cd97"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://erlang.org/download/otp_win32_24.3.exe#/dl.7z",
-            "hash": "ff7b00e20e1b7de4fa350a92f3afa94e5a9b956edfc0f651f24e721871b0b2da"
+            "url": "https://pd.zwc365.com/https://erlang.org/download/otp_win32_24.3.3.exe#/dl.7z",
+            "hash": "246264b987699d1ca67e19be617a8918c625287f71e136451e430991ce231904"
         }
     },
     "installer": {
