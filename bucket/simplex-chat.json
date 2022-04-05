@@ -1,12 +1,12 @@
 ﻿{
-    "version": "1.3.2",
+    "version": "1.5.0",
     "description": "Private and secure chat and applications platform",
     "homepage": "https://simplex.chat",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/simplex-chat/simplex-chat/releases/download/v1.3.2/simplex-chat-windows-x86-64#/simplex-chat.exe",
-            "hash": "a3403227a08b5459543e044c5d4590d927bc02e2d37535114dc1a077b0146e46"
+            "url": "https://pd.zwc365.com/https://github.com/simplex-chat/simplex-chat/releases/download/v1.5.0/simplex-chat-windows-x86-64#/simplex-chat.exe",
+            "hash": "b14d5b4617427244ba1eee19b5b27f3ca9cb244ab7c7c02176cd618d7cc7fb48"
         }
     },
     "bin": "simplex-chat.exe",
