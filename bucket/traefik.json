@@ -1,25 +1,25 @@
 ﻿{
-    "version": "2.6.1",
+    "version": "2.6.3",
     "description": "HTTP reverse proxy and load balancer",
     "homepage": "https://traefik.io",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/traefik/traefik/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/traefik/traefik/releases/tag/v2.6.1",
+    "changelog": "https://github.com/traefik/traefik/releases/tag/v2.6.3",
     "notes": "Run with a configuration file 'traefik -c <yourconfig.toml>' or 'traefik --help' for all options.",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/traefik/traefik/releases/download/v2.6.1/traefik_v2.6.1_windows_amd64.zip",
-            "hash": "0aa23b3cfef33c2d5aeab9680e89095a737e0723d9a051acabb2be944a2e6236"
+            "url": "https://pd.zwc365.com/https://github.com/traefik/traefik/releases/download/v2.6.3/traefik_v2.6.3_windows_amd64.zip",
+            "hash": "6faf3eede32335d4834c3a0a943fad8dafa25a9cf4558744791336328774b520"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/traefik/traefik/releases/download/v2.6.1/traefik_v2.6.1_windows_386.zip",
-            "hash": "4d9881b6b2a6ce5708cf722c38df642f0a6a35c36c76fa7d89c5549e48b24911"
+            "url": "https://pd.zwc365.com/https://github.com/traefik/traefik/releases/download/v2.6.3/traefik_v2.6.3_windows_386.zip",
+            "hash": "54ff66e4297f80d8b46a46ff4001179a34cf41cf857c6685b6a771f70f454729"
         },
         "arm64": {
-            "url": "https://github.com/traefik/traefik/releases/download/v2.6.1/traefik_v2.6.1_windows_arm64.zip",
-            "hash": "6ca0ba83dd89122dfebefb88c3959dcbfc8e987d79b8cbd14a93c9b8270ed9aa"
+            "url": "https://github.com/traefik/traefik/releases/download/v2.6.3/traefik_v2.6.3_windows_arm64.zip",
+            "hash": "869057fa598f4a22b2466870102c34bd8441ac33447d4fa2c03137af57732b6f"
         }
     },
     "bin": "traefik.exe",
