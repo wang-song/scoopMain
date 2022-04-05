@@ -1,5 +1,5 @@
 ﻿{
-    "version": "99.0.4844.51",
+    "version": "100.0.4896.60",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://dl.google.com/release2/chrome/adhm6j66jm36tzwpa6sldiyac6aq_99.0.4844.51/99.0.4844.51_chrome_installer.exe#/dl.7z",
-            "hash": "d81a9e6e9cfd73fe359659b849ebe59f270f371189b1c6c10e9d8486619e2911"
+            "url": "https://pd.zwc365.com/https://dl.google.com/release2/chrome/adk7ykd4m3hxmsbdd7g6j5pjn7gq_100.0.4896.60/100.0.4896.60_chrome_installer.exe#/dl.7z",
+            "hash": "10795eea53d5d1893d5f0dbbb19ba2c17302876818216fbc93af7ccfa8536240"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://dl.google.com/release2/chrome/gqczgg3uhy46ftenjszsfj5hcy_99.0.4844.51/99.0.4844.51_chrome_installer.exe#/dl.7z",
-            "hash": "203d502df7fa9c3da88582fec9db4fc1e8d56caaf382a8a4a95087423a9846de"
+            "url": "https://pd.zwc365.com/https://dl.google.com/release2/chrome/accyjad4h3dkqvluyxo3r77pwwga_100.0.4896.60/100.0.4896.60_chrome_installer.exe#/dl.7z",
+            "hash": "fb7fa6e0f51302565a9fb351fc7501e262f5245e18e7b15cc5271d83777f0b46"
         }
     },
     "installer": {
