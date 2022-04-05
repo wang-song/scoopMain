@@ -1,13 +1,13 @@
 ﻿{
-    "version": "1.4.17",
+    "version": "1.5.1",
     "description": "A modern personal independent blog system.",
     "homepage": "https://halo.run",
     "license": "GPL-3.0-or-later",
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://pd.zwc365.com/https://github.com/halo-dev/halo/releases/download/v1.4.17/halo-1.4.17.jar#/halo.jar",
-    "hash": "316d3e4c5d3b9630224f9980261023b7d2312a2e7b9733193f7b43bf6643ea30",
+    "url": "https://pd.zwc365.com/https://github.com/halo-dev/halo/releases/download/v1.5.1/halo-1.5.1.jar#/halo.jar",
+    "hash": "7cfc2a328a618162689a812b0c160029199452674eb0450998d2dba2a1b02fe3",
     "bin": "halo.jar",
     "checkver": {
         "github": "https://github.com/halo-dev/halo"
