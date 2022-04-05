@@ -1,10 +1,10 @@
 ﻿{
-    "version": "3.7.8",
+    "version": "3.8.2",
     "description": "Desktop application for Rocket.Chat using Electron",
     "homepage": "https://rocket.chat",
     "license": "MIT",
-    "url": "https://pd.zwc365.com/https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.7.8/rocketchat-setup-3.7.8.exe#/dl.7z",
-    "hash": "sha512:19a9901d6ae345ffe1b23e297ac7b8464426ed48ec0b07d0f287e863923bedc3eca82c00d03e64195748ff3949da74368dd75a1ca007b5c57f0c583ac11d500c",
+    "url": "https://pd.zwc365.com/https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.8.2/rocketchat-3.8.2-win.exe#/dl.7z",
+    "hash": "sha512:bd6b0e7fc8432452b199d10658cf6dcc2bdb3a50e3ea5a88b209b8483200d844dcc46d014d00266895724be8e1a459055ebaee91bd17339c11e1f18371aa9293",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
@@ -30,7 +30,7 @@
         "github": "https://github.com/RocketChat/Rocket.Chat.Electron"
     },
     "autoupdate": {
-        "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/$version/rocketchat-setup-$version.exe#/dl.7z",
+        "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/$version/rocketchat-$version-win.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"
