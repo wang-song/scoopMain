@@ -1,24 +1,24 @@
 ﻿{
-    "version": "7.58.2",
+    "version": "7.59.2",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
     },
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v7.58.2",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v7.59.2",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.58.2/posh-windows-amd64.exe#/oh-my-posh.exe",
-            "hash": "f25684e2731ce2d4a6204cafe2c129cdc265db8c323424043f0a7770580a8b3c"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.59.2/posh-windows-amd64.exe#/oh-my-posh.exe",
+            "hash": "1ba28e184e9d5ef57a8d23b06a692dd5acec33159a9293efd9bb3cdc6090158d"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.58.2/posh-windows-386.exe#/oh-my-posh.exe",
-            "hash": "85d635010b4b55143e5426fb97c0a937299cca82ce8269ac2c81a99d254a5a2a"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.59.2/posh-windows-386.exe#/oh-my-posh.exe",
+            "hash": "a845cc3fd473259fff4243cb7b66a10e8bba17648f40a78884a332707042b7c0"
         },
         "arm64": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.58.2/posh-windows-arm64.exe#/oh-my-posh.exe",
-            "hash": "f9d5553a3b4b687828e63b3d7291318abb3a849839eed874db311218faeca1f7"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v7.59.2/posh-windows-arm64.exe#/oh-my-posh.exe",
+            "hash": "827ecc2cbbf5871521346efa2c4ae8bc4d95e63b083f1a33b10623f4600ef5b6"
         }
     },
     "bin": "oh-my-posh.exe",
