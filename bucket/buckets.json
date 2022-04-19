@@ -1,10 +1,10 @@
 ﻿{
-    "version": "0.63.2",
+    "version": "0.66.2",
     "description": "Private Family Budgeting App",
     "homepage": "https://www.budgetwithbuckets.com",
     "license": "Proprietary",
-    "url": "https://pd.zwc365.com/https://github.com/buckets/application/releases/download/v0.63.2/Buckets-Setup-0.63.2.exe#/dl.7z",
-    "hash": "sha512:d7f8f311c22fc4063d513fb8e75151bf6613dd253df5e22cbd147d995b95d93ed4378f69e158e651ee1d10edb974bd6c6f14be385627470a8b4eb2b9ebfc5099",
+    "url": "https://pd.zwc365.com/https://github.com/buckets/application/releases/download/v0.66.2/Buckets-Setup-0.66.2.exe#/dl.7z",
+    "hash": "sha512:9f49f1bac721c0929095f243c14957229a33702d39b6f20b601378293a4ef64775b6ef0f0dc5a9c6e1909fa3d190f26d7e795c0d1830f02ba4a6381f179d5a8d",
     "architecture": {
         "64bit": {
             "pre_install": [
