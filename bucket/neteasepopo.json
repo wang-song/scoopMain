@@ -1,9 +1,10 @@
 ﻿{
     "homepage": "https://popo.netease.com/",
-    "version": "3.46.1",
+    "version": "3.47.1",
     "description": "网易泡泡",
-    "url": "https://pd.zwc365.com/https://popo.netease.com/file/popowin/POPO-setup_3_46_1.exe?need_rewrite=1#/popo.zip",
-    "hash": "151ef3aab4f2b191d3e7e8ada7860446a65e9ab627d30048610e2baf7c4b38e3",
+    "depends": "sudo",
+    "url": "https://pd.zwc365.com/https://popo.netease.com/file/popowin/POPO-setup_3_47_1.exe?need_rewrite=1#/popo.zip",
+    "hash": "7518f765e86cce47d2d52160fcfd174b4ea725ec87f36ad80c978ead8583bd3f",
     "checkver": {
         "url": "http://popo.netease.com/api/open/jsonp/check_version?device=0",
         "regex": "\"version\":\"(\\d+\\.\\d+.\\d+)\""
@@ -13,11 +14,21 @@
         "url": "https://popo.netease.com/file/popowin/POPO-setup_$majorVersion_$minorVersion_$patchVersion.exe?need_rewrite=1#/popo.zip"
     },
     "installer": {
-        "script": "Move-Item -Path $dir\\popo* $dir\\popo -Force"
+        "script": [
+            "Move-Item -Path $dir\\popo*\\* $dir\\ -Force",
+            "Expand-7ZipArchive \"$dir\\MyPopo.7z\" \"$dir\" -Removal",
+            "Expand-7ZipArchive \"$dir\\cef.7z\" \"$dir\" -Removal",
+            "Expand-7ZipArchive \"$dir\\plugins\\popo_meeting.7z\" \"$dir\\plugins\" -Removal",
+            "Expand-7ZipArchive \"$dir\\plugins\\popo_easy_cast.7z\" \"$dir\\plugins\" -Removal",
+            "sudo New-Item Registry::HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\netease-popoapp -Force -ItemType String -Value 'URL:Netease Popo Protocol' -ErrorAction SilentlyContinue",
+            "sudo New-ItemProperty Registry::HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\netease-popoapp -Force -PropertyType string -Name 'URL Protocol' -Value ' ' -ErrorAction SilentlyContinue",
+            "sudo New-Item Registry::HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\netease-popoapp\\shell\\open\\command -Force -ItemType String -Value \"`\"$dir\\Start.exe`\" `\"%1`\"\" -ErrorAction SilentlyContinue"
+        ]
     },
+    "notes": "auto start on boot fix：reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v popo6 /d \"$dir\\Start.exe\" /f",
     "shortcuts": [
         [
-            "popo/Start.exe",
+            "Start.exe",
             "网易泡泡"
         ]
     ]
