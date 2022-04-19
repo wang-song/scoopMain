@@ -1,5 +1,5 @@
 ﻿{
-    "version": "85.0.4341.65",
+    "version": "85.0.4341.72",
     "description": "Gaming counterpart of Opera web browser",
     "homepage": "https://www.opera.com/gx",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://download3.operacdn.com/pub/opera_gx/85.0.4341.65/win/Opera_GX_85.0.4341.65_Setup_x64.exe#/dl.7z",
-            "hash": "88ae60700a1f310da9559f06abe3af453e51f9a357d321c0169962154510a88e"
+            "url": "https://pd.zwc365.com/https://download3.operacdn.com/pub/opera_gx/85.0.4341.72/win/Opera_GX_85.0.4341.72_Setup_x64.exe#/dl.7z",
+            "hash": "7e76e7155c7ecc00a90be8a62b72b1a22f70b0eee74c8cf21ac6f80cc3e04899"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://download3.operacdn.com/pub/opera_gx/85.0.4341.65/win/Opera_GX_85.0.4341.65_Setup.exe#/dl.7z",
-            "hash": "0e8eee494c61805406207d80d9b7d9057db0277b3aea34dafc01afff443d0158"
+            "url": "https://pd.zwc365.com/https://download3.operacdn.com/pub/opera_gx/85.0.4341.72/win/Opera_GX_85.0.4341.72_Setup.exe#/dl.7z",
+            "hash": "0b1d935399447faaa067bd3ec84299eaf4c4bf3258d8a726b5a43e80e0a37a6b"
         }
     },
     "installer": {
