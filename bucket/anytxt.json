@@ -1,10 +1,10 @@
 ﻿{
     "homepage": "https://anytxt.net/",
-    "version": "1.2.703",
+    "version": "1.2.719",
     "depends": "autoconfirm",
     "description": "A Desktop Search Tool with A Powerful Full-Text Search Engine. Free Google Desktop Search Alternative.",
-    "url": "https://pd.zwc365.com/https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.703.exe#/setup.exe",
-    "hash": "sha1:1c355ab49c550a53b34998f6ab2aad76e24e3e98",
+    "url": "https://pd.zwc365.com/https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.2.719.exe#/setup.exe",
+    "hash": "sha1:4c8c1b9b438be2d55bfc027a6072651275c6fd9f",
     "installer": {
         "script": "Start-Process -Wait \"$dir\\setup.exe\" \"/verysilent /norestart /DIR=`\"$dir`\"\" -Verb RunAs"
     },
