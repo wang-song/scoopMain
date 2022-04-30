@@ -1,31 +1,27 @@
 ﻿{
-    "homepage": "https://github.com/Nevcairiel/LAVFilters/",
-    "description": "Open-Source DirectShow Media Splitter and Decoders ",
+    "homepage": "https://github.com/Nevcairiel/LAVFilters",
+    "description": "LAV Filters - Open-Source DirectShow Media Splitter and Decoders",
+    "version": "0.76.1",
     "license": "GPL-2.0",
-    "version": "0.75.1",
-    "url": "https://pd.zwc365.com/https://github.com/Nevcairiel/LAVFilters/releases/download/0.75.1/LAVFilters-0.75.1-x64.zip",
-    "hash": "f5890f2a747da0c1d91f885ab4f12d7676693830df9b5621f2e9e320f538af52",
-    "depends": "sudo",
-    "pre_install": [
-        "ForEach($file in Get-ChildItem $dir\\ -Filter install_*.bat) {(Get-Content $dir\\$file) | ForEach-Object {$_ -replace \"regsvr32.exe LAV\",\"regsvr32.exe /s LAV\"} | Out-File -Encoding oem $dir\\$file}",
-        "ForEach($file in Get-ChildItem $dir\\ -Filter uninstall_*.bat) {(Get-Content $dir\\$file) | ForEach-Object {$_ -replace \"regsvr32.exe /u LAV\",\"regsvr32.exe /u /s LAV\"} | Out-File -Encoding oem $dir\\$file}"
-    ],
-    "installer": {
-        "script": [
-            "sudo $dir\\install_audio.bat",
-            "sudo $dir\\install_video.bat",
-            "sudo $dir\\install_splitter.bat"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "sudo $dir\\uninstall_audio.bat",
-            "sudo $dir\\uninstall_video.bat",
-            "sudo $dir\\uninstall_splitter.bat"
-        ]
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/Nevcairiel/LAVFilters/releases/download/0.76.1/LAVFilters-0.76.1-x64.zip",
+            "hash": "bf52325ba35dff7dd772bdfd8819206fb60ae6efa48f0f562e5e6daf3c07d8a4"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://github.com/Nevcairiel/LAVFilters/releases/download/0.76.1/LAVFilters-0.76.1-x86.zip",
+            "hash": "3973f6364c6b101353631025ed172dbaa28c2878c18fad45bcd98689aaf84594"
+        }
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/$version/LAVFilters-$version-x64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/$version/LAVFilters-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/$version/LAVFilters-$version-x86.zip"
+            }
+        }
     }
 }
