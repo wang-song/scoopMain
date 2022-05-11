@@ -1,5 +1,5 @@
 ﻿{
-    "version": "0.6.1",
+    "version": "0.6.3",
     "description": "A manga reader compatible with Tachiyomi extensions and backups",
     "homepage": "https://github.com/Suwayomi/Tachidesk-Server",
     "license": {
@@ -9,33 +9,33 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://pd.zwc365.com/https://github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.1/Tachidesk-Server-v0.6.1-r1072-windows-x64.zip",
+                "https://pd.zwc365.com/https://github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.3/Tachidesk-Server-v0.6.3-r1100-windows-x64.zip",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
             ],
             "hash": [
-                "6ac61d33e817e64d6b01adc1fbeb92a3908402a1821cd4f3a8deb8707a1702ed",
+                "2fd2830503911677e9bddc7f48f835b4269616d670354a6df4e9113385c18e0d",
                 "f54f32cffc94fffc67de9d64207ed7593f1d53ab33bba17b4705443e38375c99",
                 "d88bfd4400d59531ac97dd6d6e8e4fa7e275b88ac074c7b89cc09618ddac1b5c",
                 "5e040e95cb36f1a205bfa9940f167a203738579b33dd228e3b314d51a9027c4f"
             ],
-            "extract_dir": "Tachidesk-Server-v0.6.1-r1072-windows-x64"
+            "extract_dir": "Tachidesk-Server-v0.6.3-r1100-windows-x64"
         },
         "32bit": {
             "url": [
-                "https://pd.zwc365.com/https://github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.1/Tachidesk-Server-v0.6.1-r1072-windows-x86.zip",
+                "https://pd.zwc365.com/https://github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.3/Tachidesk-Server-v0.6.3-r1100-windows-x86.zip",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
                 "https://pd.zwc365.com/https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
             ],
             "hash": [
-                "c0e714ced0141bc49e43e0a79f04dfccd5638a2afc02f44c3790826b7a643cd1",
+                "7ffa86b3b499e643bc2a3733f29b388ac9a1abd9c568b02e3ef323a7ea15287c",
                 "f54f32cffc94fffc67de9d64207ed7593f1d53ab33bba17b4705443e38375c99",
                 "d88bfd4400d59531ac97dd6d6e8e4fa7e275b88ac074c7b89cc09618ddac1b5c",
                 "5e040e95cb36f1a205bfa9940f167a203738579b33dd228e3b314d51a9027c4f"
             ],
-            "extract_dir": "Tachidesk-Server-v0.6.1-r1072-windows-x86"
+            "extract_dir": "Tachidesk-Server-v0.6.3-r1100-windows-x86"
         }
     },
     "bin": [
