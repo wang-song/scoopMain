@@ -1,0 +1,25 @@
+﻿{
+    "version": "15.2.8166.1",
+    "description": "A simple, easy and intuitive multiple database migration and sync tool.",
+    "homepage": "https://fishcodelib.com/DBMigration.htm",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://fishcodelib.com/EULA.htm"
+    },
+    "url": "https://pd.zwc365.com/https://fishcodelib.com/files/DBMigration.zip",
+    "hash": "0be6ef26fe550201d184e6563b7c2ca9524e72b6376c58efed8cb371cb954825",
+    "shortcuts": [
+        [
+            "DBMigration.exe",
+            "dbMigration .NET"
+        ]
+    ],
+    "persist": "Database_Files",
+    "checkver": {
+        "url": "https://fishcodelib.com/version.xml",
+        "regex": "dbmigration.*?ver=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://fishcodelib.com/files/DBMigration.zip"
+    }
+}
