@@ -1,0 +1,28 @@
+﻿{
+    "version": "0.1.8",
+    "description": "Easy, Secure, and Free file sharing for everyone.",
+    "homepage": "https://riftshare.app/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/achhabra2/riftshare/releases/download/v0.1.8/RiftShare-windows-amd64.zip",
+            "hash": "461874fc1ded192774426ace5175672ae82a392a9fe40d75f4a9b25d072a9f0d"
+        }
+    },
+    "shortcuts": [
+        [
+            "RiftShare.exe",
+            "RiftShare"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/achhabra2/riftshare"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/achhabra2/riftshare/releases/download/v$version/RiftShare-windows-amd64.zip"
+            }
+        }
+    }
+}
