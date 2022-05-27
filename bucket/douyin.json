@@ -1,0 +1,36 @@
+﻿{
+    "version": "1.0.8.1660",
+    "description": "抖音是一款可在智能手机上浏览的短视频社交应用程序",
+    "homepage": "https://www.douyin.com/",
+    "license": "Proprietary",
+    "url": "https://pd.zwc365.com/https://lsw-fast.lenovo.com.cn/appstore/advert/apps/72e42e0f-df51-41e0-ae90-d7dc5a317989/douyin-v1.0.8-win32-ia32-lenovo.exe#dl.7z",
+    "hash": "d86b88f00dfebe17c6d470d4de9d41895261e648eb6cbe2b1ab019ea925fd867",
+    "pre_install": "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\app.7z\", \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "bin": [
+        [
+            "douyin.exe",
+            "douyin",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "douyin.exe",
+            "抖音",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "script": [
+            "$detail = Invoke-RestMethod -Method Post -ContentType 'application/json' -Body '{\"data\":\"LhkXib/UyggGxgyOOb22ERnez+e9tZMlIel9uugVvxk=\"}' 'https://lestore.lenovo.com/api/webstorecontents/app/details'",
+            "$download = Invoke-RestMethod -Method Post -ContentType 'application/json' -Body '{\"data\":\"8czvPKegDD9yUVyP4IoI+JMfy+4GvVRs4Y1Z0gsi342yxEFReWmyEwwaP9GILX5dGlsOuUdJGxXEN6g71QdcAg==\"}' https://lestore.lenovo.com/api/webstorecontents/download/getDownloadUrl",
+            "return (\"version={0};url={1}\" -f $detail.data.version,$download.data.downloadUrls[0].downLoadUrl)"
+        ],
+        "regex": "version=([\\d.]+);url=(?<downloadUrl>.+)"
+    },
+    "autoupdate": {
+        "url": "$matchDownloadurl#dl.7z"
+    }
+}
