@@ -11,15 +11,23 @@
         "        '[Configuration\\Interface]'",
         "        'RandomSeedFile=.\\winscp.rnd'",
         "    ) | Add-Content -Path \"$dir\\winscp.ini\" -Encoding ASCII -Force",
+        "}",
+        "#Download translation file",
+        "$LocaleFileNames = 'pt', 'ca', 'cs', 'nl', 'fi', 'fr', 'de', 'hu', 'is', 'it', 'jp', 'ko', 'no', 'pl', 'ptg', 'ro', 'ru', 'chs', 'sk', 'es', 'sv', 'ch', 'tr', 'uk', 'fa', 'hr', 'lt', 'xxk', 'ar', 'et', 'srl', 'in', 'be', 'vi', 'el', 'da', 'ms', 'bg', 'he', 'fp', 'th', 'mya', 'bn', 'mk'",
+        "$LocaleNames = 'pt-*', 'ca-*', 'cs-*', 'nl-*', 'fi-*', 'fr-*', 'de-*', 'hu-*', 'is-*', 'it-*', 'ja-JP', 'ko-*', 'nb-*', 'pl-*', 'pt-*', 'ro-*', 'ru-*', 'zh-CN', 'sk-*', 'es-*', 'sv-*', 'zh-TW', 'tr-*', 'uk-*', 'fa-*', 'hr-*', 'lt-*', 'kab-*', 'ar-*', 'et-*', 'sr-*', 'id-*', 'be-*', 'vi-*', 'el-*', 'da-*', 'ms-*', 'bg-*', 'he-*', 'fil-*', 'th-*', 'my-*', 'bn-*', 'mk-*'",
+        "$LocaleName = (Get-WinSystemLocale).Name",
+        "for ($i = 0; $i -lt $LocaleNames.Length; $i++) {",
+        "    if ($LocaleName -like $LocaleNames[$i]) {",
+        "        break",
+        "    }",
+        "}",
+        "if ($LocaleFileNames[$i]) {",
+        "    Invoke-WebRequest -Uri \"https://winscp.net/translations/dll/$version/$($LocaleFileNames[$i]).zip\" -OutFile $original_dir\\$($LocaleFileNames[$i]).zip",
+        "    Expand-Archive $original_dir\\$($LocaleFileNames[$i]).zip -DestinationPath $original_dir",
+        "    Remove-Item $original_dir\\$($LocaleFileNames[$i]).zip",
         "}"
     ],
-    "bin": [
-        "WinSCP.exe",
-        [
-            "WinSCP.com",
-            "WinSCP-cli"
-        ]
-    ],
+    "bin": "WinSCP.exe",
     "shortcuts": [
         [
             "WinSCP.exe",
