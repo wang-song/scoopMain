@@ -1,0 +1,44 @@
+﻿{
+    "version": "3.7k",
+    "description": "Desktop utility to download images/videos/music/text from various websites, and more.",
+    "homepage": "https://github.com/KurtBestor/Hitomi-Downloader",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.7k/hitomi_downloader_GUI.zip",
+            "hash": "7fef059f3992b574676173576b0718cd8f4caa7b411382643199ba0e02e3be53"
+        }
+    },
+    "pre_install": [
+        "Rename-Item -Path \"$dir\\hitomi_downloader_GUI.exe\" -NewName 'hitomi_downloader.exe'",
+        "if (Test-Path \"$persist_dir\\hitomi_downloader.ini\") { Move-Item \"$persist_dir\\hitomi_downloader.ini*\" \"$dir\" -Force }",
+        "if (Test-Path \"$persist_dir\\hitomi_downloaded_*\\\") { Move-Item \"$persist_dir\\hitomi_downloaded_*\" \"$dir\" -Force }"
+    ],
+    "uninstaller": {
+        "script": [
+            "if(Test-Path \"$dir\\hitomi_downloader.ini\") { Move-Item \"$dir\\hitomi_downloader.ini\" \"$persist_dir\" -Force }",
+            "if(Test-Path \"$dir\\hitomi_downloaded_*\\\") { Move-Item \"$dir\\hitomi_downloaded_*\" \"$persist_dir\" -Force }"
+        ]
+    },
+    "persist": "hitomi_downloaded",
+    "bin": "hitomi_downloader.exe",
+    "shortcuts": [
+        [
+            "hitomi_downloader.exe",
+            "Hitomi Downloader",
+            "--no-admin"
+        ]
+    ],
+    "notes": "Bypassing DPI is disabled.",
+    "checkver": {
+        "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/latest",
+        "regex": "/releases/download/v([\\d.]+\\w?)/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v$version/hitomi_downloader_GUI.zip"
+            }
+        }
+    }
+}
