@@ -1,0 +1,27 @@
+﻿{
+    "version": "0.5.3",
+    "description": "A fast websocket tunnel built on top of lightws.",
+    "homepage": "https://github.com/zephyrchien/kaminari",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/zephyrchien/kaminari/releases/download/v0.5.3/kaminari-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "a356f4e89c19a09c369a8874e71a87823dc4b32b61c7effbe7db8038138ade31"
+        }
+    },
+    "bin": [
+        "kaminaric.exe",
+        "kaminaris.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zephyrchien/kaminari/releases/download/v$version/kaminari-x86_64-pc-windows-msvc.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/zephyrchien/kaminari/releases/download/v$version/kaminari-x86_64-pc-windows-msvc.sha256"
+        }
+    }
+}
