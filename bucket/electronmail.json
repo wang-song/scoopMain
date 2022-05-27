@@ -1,0 +1,47 @@
+﻿{
+    "version": "4.15.0",
+    "description": "An Electron-based unofficial desktop client for ProtonMail.",
+    "homepage": "https://github.com/vladimiry/ElectronMail",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/vladimiry/ElectronMail/releases/download/v4.15.0/electron-mail-4.15.0-windows-x64-nsis-installer.exe#/dl.7z",
+            "hash": "5b990fe313d71a12581f1c14c9768fdae96c9f9f745af9fcbdc968672f1e832a",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
+            ]
+        }
+    },
+    "bin": [
+        [
+            "ElectronMail.exe",
+            "ElectronMail",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ElectronMail.exe",
+            "ElectronMail",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "env_set": {
+        "ELECTRON_MAIL_USER_DATA_DIR": "$dir\\User Data"
+    },
+    "persist": "User Data",
+    "notes": "Desktop notification is not working when using portable version.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vladimiry/ElectronMail/releases/download/v$version/electron-mail-$version-windows-x64-nsis-installer.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/vladimiry/ElectronMail/releases/tag/v$version",
+                    "regex": "$sha256\\s+$basename"
+                }
+            }
+        }
+    }
+}
