@@ -1,0 +1,24 @@
+﻿{
+    "version": "0.46.3",
+    "description": "A CLI tool and library for generating a Software Bill of Materials from container images and filesystems.",
+    "homepage": "https://github.com/anchore/syft",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/anchore/syft/releases/download/v0.46.3/syft_0.46.3_windows_amd64.zip",
+            "hash": "c48779fb23710b97f33dfa7681ab57943e6ce39703f4d365657f605c88ecf177"
+        }
+    },
+    "bin": "syft.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/anchore/syft/releases/download/v$version/syft_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/syft_$version_checksums.txt"
+        }
+    }
+}
