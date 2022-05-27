@@ -1,13 +1,23 @@
 ﻿{
+    "version": "1.9",
+    "description": "A small tool which allows to copy text from dialogs and controls which don’t allow it otherwise.",
     "homepage": "https://rammichael.com/textify",
     "license": "GPL-3.0-only",
-    "version": "1.8.8",
-    "url": "https://pd.zwc365.com/https://rammichael.com/downloads/textify_setup.exe#dl.7z",
-    "hash": "8312ec7905bd0f6dfc9e2151c9e246b32a77cce906c189ebef733b1732396fac",
+    "url": "https://pd.zwc365.com/https://rammichael.com/downloads/textify_setup.exe#/dl.7z",
+    "hash": "97951da47cbbbe513703b70a53307e6e692f4be161086f7ae5b8f31c415b13c9",
     "shortcuts": [
         [
             "Textify.exe",
             "Textify"
         ]
-    ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
+    "persist": "Textify.ini",
+    "checkver": {
+        "url": "https://rammichael.com/downloads/textify_setup.exe?changelog",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://rammichael.com/downloads/textify_setup.exe#/dl.7z"
+    }
 }
