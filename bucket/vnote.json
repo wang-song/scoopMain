@@ -1,11 +1,8 @@
 ﻿{
     "version": "3.13.0",
-    "description": "A Vim-inspired note-taking platform",
-    "homepage": "https://vnotex.github.io/vnote/en_us/",
-    "license": "LGPL-3.0-only",
-    "suggest": {
-        "vcredist": "extras/vcredist2022"
-    },
+    "description": "A pleasant note-taking platform.",
+    "homepage": "https://vnotex.github.io/vnote/",
+    "license": "LGPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://pd.zwc365.com/https://github.com/vnotex/vnote/releases/download/v3.13.0/vnote-win-x64_v3.13.0.zip",
@@ -16,7 +13,6 @@
             "hash": "6b4b99634f2bb6f53e6c3c3b4f662bf27912138d2480024bf23d692606d7718a"
         }
     },
-    "pre_install": "Remove-Item \"$dir\\vcredist_*exe\"",
     "bin": "vnote.exe",
     "shortcuts": [
         [
