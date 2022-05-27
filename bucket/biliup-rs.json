@@ -1,0 +1,23 @@
+﻿{
+    "version": "0.1.7",
+    "description": "B站命令行投稿工具",
+    "homepage": "https://github.com/ForgQi/biliup-rs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/ForgQi/biliup-rs/releases/download/v0.1.7/biliupR-v0.1.7-x86_64-windows.zip",
+            "hash": "cd3c3c7cda6ef82d5b389a6eec79a9cfd832811d7bf199e2732ac703f130c30a",
+            "extract_dir": "biliupR-v0.1.7-x86_64-windows"
+        }
+    },
+    "bin": "biliup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ForgQi/biliup-rs/releases/download/v$version/biliupR-v$version-x86_64-windows.zip",
+                "extract_dir": "biliupR-v$version-x86_64-windows"
+            }
+        }
+    }
+}
