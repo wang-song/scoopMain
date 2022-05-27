@@ -1,15 +1,22 @@
 ﻿{
-    "version": "3.4.7.20220422",
     "homepage": "https://www.dcloud.io/hbuilderx.html",
-    "license": "BSD-3-Clause",
-    "url": "https://pd.zwc365.com/https://download1.dcloud.net.cn/download/HBuilderX.3.4.7.20220422.full.zip",
+    "version": "3.4.7.20220422",
+    "license": "Freeware",
     "extract_dir": "HBuilderX",
-    "persist": "plugins",
+    "url": "https://pd.zwc365.com/https://download1.dcloud.net.cn/download/HBuilderX.3.4.7.20220422.zip",
+    "hash": "292b21ec22917509ce97bfc9680f50eacf4f27c4bb0aeb7bb61f2586b117ce4c",
     "bin": "HBuilderX.exe",
     "shortcuts": [
         [
             "HBuilderX.exe",
             "HBuilderX"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://download1.dcloud.net.cn/hbuilderx/release.json",
+        "jsonpath": "$.win[1].version"
+    },
+    "autoupdate": {
+        "url": "https://download1.dcloud.net.cn/download/HBuilderX.$version.zip"
+    }
 }
