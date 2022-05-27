@@ -1,0 +1,36 @@
+﻿{
+    "version": "5.0.6",
+    "description": "A platform for building proxies to bypass network restrictions. (beta)",
+    "homepage": "https://www.v2fly.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/v2fly/v2ray-core/releases/download/v5.0.6/v2ray-windows-64.zip",
+            "hash": "sha512:4fc77c952a436de2dfb663ceaca7d090ed760ab8e1150a4fce1f5b44b837290e8957ba5c0336df6fe3791d5b6ed38ca1a3d7d501aa9cc30510b00460900495a8"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://github.com/v2fly/v2ray-core/releases/download/v5.0.6/v2ray-windows-32.zip",
+            "hash": "sha512:db3df95ed33168c37d171e67f9149a4258bca4659fde29c1fd13f4b0bf69d53c5edd0bb86184d425a26a66b3f28d79663f9202af8fa437c33fe55256768c89b2"
+        }
+    },
+    "bin": "v2ray.exe",
+    "persist": "config.json",
+    "checkver": {
+        "url": "https://github.com/v2fly/v2ray-core/releases",
+        "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.dgst",
+            "regex": "SHA512= $sha512"
+        }
+    }
+}
