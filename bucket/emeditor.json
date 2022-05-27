@@ -1,9 +1,18 @@
 ﻿{
+    "homepage": "https://www.emeditor.com/",
     "version": "21.7.1",
-    "description": "world’s fastest text editor.",
-    "homepage": "https://www.emeditor.com/download/",
-    "license": "BSD-3-Clause",
-    "url": "https://pd.zwc365.com/https://support.emeditor.com/en/downloads/latest/portable/64#/dl.7z",
+    "description": "EmEditor is a fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
+    "license": "https://www.emeditor.com/#toggle-id-4",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://emeditor.blob.core.windows.net/emed64_21.7.1_portable.zip",
+            "hash": "ef7fa7f74d907cb39c855f43b914f8af534a802901acfc9804b2b5526bb2dafa"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://emeditor.blob.core.windows.net/emed32_21.7.1_portable.zip",
+            "hash": "be444c7f163b9b1edfb29e44f379bb31acebfbdfc1d6ef246390873d90d2fdf5"
+        }
+    },
     "bin": "EmEditor.exe",
     "shortcuts": [
         [
@@ -11,16 +20,19 @@
             "EmEditor"
         ]
     ],
-    "persist": [
-        "eeCommon.ini",
-        "eeConfig.ini",
-        "eeLM.ini",
-        "eePlugins.ini"
-    ],
-    "pre_install": [
-        "if(!(Test-Path \"$persist_dir\\eeCommon.ini\")) { Add-Content \"$dir\\eeCommon.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eeConfig.ini\")) { Add-Content \"$dir\\eeConfig.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eeLM.ini\")) { Add-Content \"$dir\\eeLM.ini\" $null }",
-        "if(!(Test-Path \"$persist_dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" $null }"
-    ]
+    "post_install": "Remove-Item \"$dir\\eeUseIni.ini\"",
+    "checkver": {
+        "url": "https://www.emeditor.com/download/",
+        "regex": "<h3>Download latest version: v([\\d.]+)</h3>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+            },
+            "32bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
+            }
+        }
+    }
 }
