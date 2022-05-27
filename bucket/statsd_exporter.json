@@ -1,0 +1,35 @@
+﻿{
+    "version": "0.22.5",
+    "description": "A Prometheus exporter that receives StatsD-style metrics and exports them as Prometheus metrics.",
+    "homepage": "https://github.com/prometheus/statsd_exporter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/prometheus/statsd_exporter/releases/download/v0.22.5/statsd_exporter-0.22.5.windows-amd64.tar.gz",
+            "hash": "20c8c218b7feab248c7f4bd4498b02f28333b28f2fc47070f245321a7ec20060",
+            "extract_dir": "statsd_exporter-0.22.5.windows-amd64"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://github.com/prometheus/statsd_exporter/releases/download/v0.22.5/statsd_exporter-0.22.5.windows-386.tar.gz",
+            "hash": "2cf22450d6137a9d9dbe7a62665517ac7714d9cdc8db2ee9fda1998be77ad294",
+            "extract_dir": "statsd_exporter-0.22.5.windows-386"
+        }
+    },
+    "bin": "statsd_exporter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prometheus/statsd_exporter/releases/download/v$version/statsd_exporter-$version.windows-amd64.tar.gz",
+                "extract_dir": "statsd_exporter-$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/prometheus/statsd_exporter/releases/download/v$version/statsd_exporter-$version.windows-386.tar.gz",
+                "extract_dir": "statsd_exporter-$version.windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
