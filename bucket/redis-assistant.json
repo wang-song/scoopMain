@@ -1,0 +1,25 @@
+﻿{
+    "version": "1.1.6.2",
+    "description": "Redis可视化管理与监控",
+    "homepage": "http://www.redisant.cn/",
+    "license": "Shareware",
+    "url": "https://pd.zwc365.com/https://download.redisant.com/package/RA-1.1.6.2.exe",
+    "hash": "15eabfbb4344b2dcbe5419fe160158a718ab6d308271c23a95c91a56692125f1",
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Redis Assistant.exe",
+            "Redis Assistant"
+        ]
+    ],
+    "notes": "Redis Assistant is NOT portable.",
+    "checkver": {
+        "regex": "RA-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://download.redisant.com/package/RA-$version.exe"
+    }
+}
