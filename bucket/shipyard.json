@@ -1,0 +1,26 @@
+﻿{
+    "version": "0.3.54",
+    "description": "A tool for building modern cloud native development environments.",
+    "homepage": "https://shipyard.run/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/shipyard-run/shipyard/releases/download/v0.3.54/shipyard_0.3.54_windows_x86_64.zip",
+            "hash": "bd232794857408137fe5a7a92707639a97ea4003e9cf9e42f8d21745c20d8c15"
+        }
+    },
+    "bin": "shipyard.exe",
+    "checkver": {
+        "github": "https://github.com/shipyard-run/shipyard"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shipyard-run/shipyard/releases/download/v$version/shipyard_$version_windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
