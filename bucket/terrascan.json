@@ -1,0 +1,33 @@
+﻿{
+    "version": "1.15.1",
+    "description": "Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.",
+    "homepage": "https://runterrascan.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/accurics/terrascan/releases/download/v1.15.1/terrascan_1.15.1_Windows_x86_64.tar.gz",
+            "hash": "9add1e61bfa02f13befc4cfc1e6110631a88ef1eec1ac12c0fd7fed77d6125ba"
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://github.com/accurics/terrascan/releases/download/v1.15.1/terrascan_1.15.1_Windows_i386.tar.gz",
+            "hash": "289fe075c74e8bc5df2e6be4715da3622a7073a261daac4cad83a3a8ab615c23"
+        }
+    },
+    "bin": "terrascan.exe",
+    "checkver": {
+        "github": "https://github.com/accurics/terrascan"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/accurics/terrascan/releases/download/v$version/terrascan_$version_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/accurics/terrascan/releases/download/v$version/terrascan_$version_Windows_i386.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
