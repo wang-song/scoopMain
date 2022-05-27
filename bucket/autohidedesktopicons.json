@@ -1,0 +1,22 @@
+﻿{
+    "version": "5.55",
+    "description": "A lightweight tool that enable automatic hiding and showing feature of the desktop icons.",
+    "homepage": "http://www.softwareok.com/?seite=Microsoft/AutoHideDesktopIcons",
+    "license": "Freeware",
+    "url": "https://pd.zwc365.com/http://www.softwareok.com/Download/AutoHideDesktopIcons_Portable.zip",
+    "hash": "8d6a2cb7d547305d96fccea07a5d03653d3715ab7ecc7d1c1d1f563c57d4245e",
+    "shortcuts": [
+        [
+            "AutoHideDesktopIcons_p.exe",
+            "AutoHideDesktopIcons"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\AutoHideDesktopIcons_p.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideDesktopIcons_p.ini\" -Value $null }",
+    "persist": "AutoHideDesktopIcons_p.ini",
+    "checkver": {
+        "regex": "AutoHideDesktopIcons ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.softwareok.com/Download/AutoHideDesktopIcons_Portable.zip"
+    }
+}
