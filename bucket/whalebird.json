@@ -1,0 +1,51 @@
+﻿{
+    "version": "4.6.0",
+    "description": "A Mastodon, Pleroma, and Misskey client for desktop application.",
+    "homepage": "https://whalebird.social/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://pd.zwc365.com/https://github.com/h3poteto/whalebird-desktop/releases/download/4.6.0/Whalebird-4.6.0-windows-x64.exe#/dl.7z",
+            "hash": "335712c1c86b7b7b70a73c34641b1cbb3d776c8bf433158a4136adf7e4306915",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        },
+        "32bit": {
+            "url": "https://pd.zwc365.com/https://github.com/h3poteto/whalebird-desktop/releases/download/4.6.0/Whalebird-4.6.0-windows-ia32.exe#/dl.7z",
+            "hash": "043ec99b68aeb2a9b39595154d1cf4a71972d89f36b22f23f14a1958cf0401ba",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "bin": [
+        [
+            "Whalebird.exe",
+            "Whalebird",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Whalebird.exe",
+            "Whalebird",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://whalebird.social/en/desktop/contents/downloads",
+        "regex": "Whalebird-([\\d.]+)-x64.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/h3poteto/whalebird-desktop/releases/download/$version/Whalebird-$version-windows-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/h3poteto/whalebird-desktop/releases/download/$version/Whalebird-$version-windows-ia32.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.shasum"
+        }
+    }
+}
