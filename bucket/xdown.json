@@ -1,0 +1,22 @@
+﻿{
+    "version": "2.0.4.8",
+    "description": "免费无广告的文件下载与分享工具",
+    "homepage": "http://xdown.org/",
+    "license": "Freeware",
+    "url": "https://pd.zwc365.com/http://dl.xdown.org/windows/i386/xdown-2.0.4.8.zip",
+    "hash": "b6b515cd5a43e62089796f95b8b410478f4b907ea05f8ea3182706c168a1a84c",
+    "extract_dir": "xdown",
+    "persist": "profile",
+    "shortcuts": [
+        [
+            "XDown.exe",
+            "XDown"
+        ]
+    ],
+    "checkver": {
+        "regex": "/windows/i386/xdown-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "http://dl.xdown.org/windows/i386/xdown-$version.zip"
+    }
+}
