@@ -1,16 +1,16 @@
 ﻿{
-    "version": "2.4.0.20",
+    "version": "2.6.0.0",
     "description": "An open-source big data platform designed and optimized for the Internet of Things (IoT).",
     "homepage": "https://www.taosdata.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://www.taosdata.com/assets-download/TDengine-client-2.4.0.20-Windows-x64.exe",
-            "hash": "c60105ea369459dc630857990226361eb4d8496643c2ba1db83ab999b1028b8b"
+            "url": "https://pd.zwc365.com/https://www.taosdata.com/assets-download/TDengine-client-2.6.0.0-Windows-x64.exe",
+            "hash": "f15f2bd24fde61c1e2a514269c0f37555468a0f1b7c76c920a9e1bd3be728ebf"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://www.taosdata.com/assets-download/TDengine-client-2.4.0.20-Windows-x86.exe",
-            "hash": "f5aef9f0f5341afc4eb8d3ec58d00a5ddbec3f3069e41f1527f3cdd38fffc853"
+            "url": "https://pd.zwc365.com/https://www.taosdata.com/assets-download/TDengine-client-2.6.0.0-Windows-x86.exe",
+            "hash": "f855284935e168cc35e1a41d63fc8597581787282f37afed0e1a0746d79ce195"
         }
     },
     "innosetup": true,
