@@ -3,6 +3,7 @@
     "description": "kwmusic client",
     "homepage": "https://www.kuwo.cn/",
     "license": {
+        "identifier": "Unknown",
         "url": "http://www.kuwo.cn/static/page/license/license.html"
     },
     "url": "https://pd.zwc365.com/https://down.kuwo.cn/mbox/kwmusic_web_4.exe#/dl.7z",
