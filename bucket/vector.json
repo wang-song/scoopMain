@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://pd.zwc365.com/https://packages.timber.io/vector/0.22.3/vector-0.22.3-x86_64-pc-windows-msvc.zip",
-            "hash": "0384ce36126dbd2e487238e3a31a987961378948afdd3bab2cbea3c6eb0ed541"
+            "hash": "b809d3dc759f6fa1ddb90a664bc1fed5124d1b35b87a29cf4aa3897c706dffe1"
         }
     },
     "bin": "bin\\vector.exe",
