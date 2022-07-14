@@ -1,5 +1,5 @@
 ﻿{
-    "version": "6.61",
+    "version": "6.64",
     "description": "Digital Audio Workstation",
     "homepage": "https://www.reaper.fm",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "The portable version of Reaper does not include ReWire.",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://www.reaper.fm/files/6.x/reaper661_x64-install.exe#/dl.7z",
-            "hash": "9b60269e9872456bfd5db67c372fdc91cd8ba1eca644bd50256731a077887df0"
+            "url": "https://pd.zwc365.com/https://www.reaper.fm/files/6.x/reaper664_x64-install.exe#/dl.7z",
+            "hash": "a70b8871a8e4b84aafd16a57b14fbb0cd4411e48e1794df17e05065368348915"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://www.reaper.fm/files/6.x/reaper661-install.exe#/dl.7z",
-            "hash": "f51241635fb2e6eac305fb79286e9b049c096e5b538d84311ee8a2d91543828e"
+            "url": "https://pd.zwc365.com/https://www.reaper.fm/files/6.x/reaper664-install.exe#/dl.7z",
+            "hash": "107a2ae6f0d668212caccd3e6dd6f1418f8c38bf5cb00214bdef738d6365a017"
         }
     },
     "bin": [
