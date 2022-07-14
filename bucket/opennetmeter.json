@@ -1,13 +1,13 @@
 ﻿{
-    "version": "0.10.0",
+    "version": "0.12.0",
     "description": "A simple program to monitor your network/data usage.",
     "homepage": "https://github.com/Ashfaaq18/OpenNetMeter",
     "license": "Apache-2.0",
     "suggest": {
         "Windows Desktop Runtime": "extras/windowsdesktop-runtime-lts"
     },
-    "url": "https://pd.zwc365.com/https://github.com/Ashfaaq18/OpenNetMeter/releases/download/v0.10.0/OpenNetMeter-0.10.0.zip",
-    "hash": "33AF8CCE6EDFAA012D45C40D8438B385BD4A9C50819DB0A68EDE78DEBCDB8EBE",
+    "url": "https://pd.zwc365.com/https://github.com/Ashfaaq18/OpenNetMeter/releases/download/v0.12.0/OpenNetMeter-0.12.0.zip",
+    "hash": "9ee1cc13e4970f7bbb8f7a4318b15bb36e9a1f136833ecaa1df82cb687e03e5f",
     "shortcuts": [
         [
             "OpenNetMeter.exe",
