@@ -1,13 +1,13 @@
 ﻿{
     "homepage": "https://music.163.com/",
     "description": "The official NetEase Cloud Music client.",
-    "version": "2.9.9.199909",
+    "version": "2.10.2.200154",
     "license": {
         "identifier": "EULA",
         "url": "https://music.163.com/html/web2/service.html"
     },
-    "url": "https://pd.zwc365.com/https://d1.music.126.net/dmusic/cloudmusicsetup2.9.9.199909.exe#/dl.7z",
-    "hash": "dfa07efeb984fe10dc2527461a4ea34121f3d8b42b5cda6ee61beabec12e9e2e",
+    "url": "https://pd.zwc365.com/https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_2.10.2.200154.exe#/dl.7z",
+    "hash": "12513c1c3a651732ab7af049b2602cdba5276e7f8553a125a9a4b7a34e6acc5d",
     "installer": {
         "script": [
             "Get-ChildItem \"$dir\\redist_packages\" | Move-Item -Destination \"$dir\" -Force",
@@ -33,9 +33,9 @@
     ],
     "checkver": {
         "script": "return (iwr -useb 'https://music.163.com/api/pc/package/download/latest' -Method Head).Headers['x-nos-object-name']",
-        "regex": "cloudmusicsetup(?<version>[\\d.]+\\d)(?<bug>.*?).exe"
+        "regex": "(?<version>[\\d.]+\\d).exe"
     },
     "autoupdate": {
-        "url": "https://d1.music.126.net/dmusic/cloudmusicsetup$version$matchBug.exe#/dl.7z"
+        "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version.exe#/dl.7z"
     }
 }
