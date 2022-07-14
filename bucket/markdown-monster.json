@@ -1,5 +1,5 @@
 ﻿{
-    "version": "2.5.17",
+    "version": "2.6.5",
     "description": "Markdown editing and weblog publishing tool",
     "homepage": "https://markdownmonster.west-wind.com",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://markdownmonster.west-wind.com/purchase.aspx#License"
     },
     "url": "https://pd.zwc365.com/https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterPortable.zip",
-    "hash": "85927d0eaaaacdcc4bdf2623df965f6304fc3f19e1784152ca1d9cfcfdc8203e",
+    "hash": "21cc24485702dea75eba8e676f2671c220d08a1b6aa54438466fdf5898a40e86",
     "bin": "mmcli.exe",
     "shortcuts": [
         [
@@ -17,7 +17,12 @@
     ],
     "persist": "PortableSettings",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml",
+        "script": [
+            "$url = 'https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml'",
+            "$cont = (Invoke-WebRequest $url).Content",
+            "$cont = $cont.Replace(\"`u{FFFD}\", '').Replace(\"`u{0}\", '')",
+            "Write-Output $cont"
+        ],
         "xpath": "/VersionInfo/Version"
     },
     "autoupdate": {
