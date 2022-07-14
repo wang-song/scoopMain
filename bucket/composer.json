@@ -1,5 +1,5 @@
 ﻿{
-    "version": "2.3.8",
+    "version": "2.3.10",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "license": "MIT",
@@ -10,8 +10,8 @@
             "php-nts"
         ]
     },
-    "url": "https://pd.zwc365.com/https://getcomposer.org/download/2.3.8/composer.phar",
-    "hash": "c6ab768ad3239c4d4cc4f39f8ff7462925e088cd441e5bdb749fbf6efe049769",
+    "url": "https://pd.zwc365.com/https://getcomposer.org/download/2.3.10/composer.phar",
+    "hash": "d808272f284fa8e0f8b470703e1438ac8f362030bbc9d12e29530277d767aff0",
     "pre_install": [
         "@(",
         "    'if ($args.length -eq 1 -and ($args -eq \"selfupdate\" -or $args -eq \"self-update\")) { & scoop update composer }'",
