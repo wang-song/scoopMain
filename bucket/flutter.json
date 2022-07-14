@@ -1,5 +1,5 @@
 ﻿{
-    "version": "3.0.3",
+    "version": "3.0.5",
     "description": "Google's mobile app SDK for crafting high-quality native interfaces on iOS and Android",
     "homepage": "https://flutter.dev",
     "license": "BSD-3-Clause",
@@ -11,11 +11,11 @@
         "Visual Studio Code with Flutter Extension": "vscode"
     },
     "url": [
-        "https://pd.zwc365.com/https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.0.3-stable.zip",
+        "https://pd.zwc365.com/https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.0.5-stable.zip",
         "https://pd.zwc365.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/flutter-dev-setup.ps1"
     ],
     "hash": [
-        "29dd29434fc6c49277a8edcf0600d09eef16fd24618124dd8905e22bef4c49c2",
+        "487528699af7a0536e7cd8c770e8c0626d7449864ab12c0bfed770b2d0f99b95",
         "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
     ],
     "extract_dir": "flutter",
