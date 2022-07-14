@@ -1,12 +1,12 @@
 ﻿{
-    "version": "2.2",
+    "version": "2.21",
     "description": "An internet file download manager",
     "homepage": "https://github.com/filecxx/FileCentipede",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.0/filecxx_2.2_win_x64.zip",
-            "hash": "4a4d243bf58a444c1c955a29ae3cb614384157a28e7798497156d8cd32a11f43",
+            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.0/filecxx_latest_win_x64.zip",
+            "hash": "e8913284ea9b105fc41cd6dd41dd5e0280ec99df13582d53e0eb1e9b8e4a4238",
             "bin": [
                 [
                     "fileu.exe",
@@ -47,13 +47,14 @@
         "lib\\fileu_win32.conf"
     ],
     "checkver": {
-        "url": "http://www.filecxx.com/en_US/update_log.html",
-        "regex": "([\\d.]+)..uptime"
+        "url": "http://www.filecxx.com/release/FileCentipede_pad.xml",
+        "xpath": "/XML_DIZ_INFO/Web_Info/Download_URLs/Primary_Download_URL",
+        "regex": "releases/download/(?<tag>.*?)/filecxx_([\\d.]+)_win_x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/filecxx/FileCentipede/releases/download/$version/filecxx_$version_win_x64.zip"
+                "url": "https://github.com/filecxx/FileCentipede/releases/download/$matchTag/filecxx_$version_win_x64.zip"
             }
         }
     }
