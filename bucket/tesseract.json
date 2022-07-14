@@ -1,5 +1,5 @@
 ﻿{
-    "version": "5.1.0.20220510",
+    "version": "5.2.0.20220712",
     "description": "Open Source OCR Engine",
     "homepage": "https://github.com/UB-Mannheim/tesseract/wiki",
     "license": "Apache-2.0",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.1.0.20220510.exe#/dl.7z",
-            "hash": "f0bbfdac107b021867b3a8c985ab8e81f0e3e58ad161c0dfab02d53d7f318878"
+            "url": "https://pd.zwc365.com/https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe#/dl.7z",
+            "hash": "f5a47371604e186f3171e6e0c57b2d2ee172fd80b0e2df3675b5203acc2c16ae"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.1.0.20220510.exe#/dl.7z",
-            "hash": "2adff57eb5a613da1e3d1e41279577986b0d266a51ea7be5baa49dea0765b862"
+            "url": "https://pd.zwc365.com/https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe#/dl.7z",
+            "hash": "f70cacf92dc66445300264b8bc4977e00665a74ce8af7664029fe82e336f574f"
         }
     },
     "bin": [
