@@ -1,12 +1,12 @@
 ﻿{
-    "version": "2.21",
+    "version": "2.3",
     "description": "An internet file download manager",
     "homepage": "https://github.com/filecxx/FileCentipede",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.0/filecxx_latest_win_x64.zip",
-            "hash": "e8913284ea9b105fc41cd6dd41dd5e0280ec99df13582d53e0eb1e9b8e4a4238",
+            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.3/filecxx_2.3_win_x64.zip",
+            "hash": "7e231532bbd84de71eb5aff442333f8c709f1d5cd13c13b8ca7de4dc130bf5bf",
             "bin": [
                 [
                     "fileu.exe",
