@@ -1,16 +1,16 @@
 ﻿{
-    "version": "0.1.33",
+    "version": "0.1.38",
     "description": "Command line tool built on top of divoom APIs for controlling divoom devices, like pixoo.",
     "homepage": "https://github.com/r12f/divoom",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/r12f/divoom/releases/download/0.1.33/divoom-cli.0.1.33.windows.x64.zip",
-            "hash": "8e3fe42614c3032865fb5d9775a5f1614db2640e0306c36f60a6a2c5ffc01bd6"
+            "url": "https://pd.zwc365.com/https://github.com/r12f/divoom/releases/download/0.1.38/divoom-cli.0.1.38.windows.x64.zip",
+            "hash": "bf8944e05fb5e768d7c3f826b4c5ce8a1a059998f6fe664176056a712efa2c38"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/r12f/divoom/releases/download/0.1.33/divoom-cli.0.1.33.windows.x86.zip",
-            "hash": "578b7f0dddc90d310c93a6668f1b1a291e1534baf81e0144f437d556762eb678"
+            "url": "https://pd.zwc365.com/https://github.com/r12f/divoom/releases/download/0.1.38/divoom-cli.0.1.38.windows.x86.zip",
+            "hash": "ec4651b05059fd266ee2578674cbb41cbfa1ec6e7577747884763159b55e8823"
         }
     },
     "bin": "divoom-cli.exe",
