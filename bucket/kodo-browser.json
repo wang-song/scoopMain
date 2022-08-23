@@ -1,16 +1,16 @@
 ﻿{
-    "version": "1.0.18",
+    "version": "1.0.19.1",
     "description": "七牛对象存储提供的图形化管理工具，支持用户通过可视化页面进行上传、下载等操作",
     "homepage": "https://developer.qiniu.com/kodo/5972/kodo-browser",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://kodo-toolbox.qiniu.com/kodo-browser-Windows-x64-v1.0.18.zip",
-            "hash": "d7bc10ab079b46a9909b19cc93868f19ee34e7eff4463d5008fbccccc9a30e71"
+            "url": "https://pd.zwc365.com/https://kodo-toolbox.qiniu.com/kodo-browser-Windows-x64-v1.0.19.1.zip",
+            "hash": "806e16b6fb6b2e18bd29b705fbaa9444c5a4f18f6c063144f896006304dc74a4"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://kodo-toolbox.qiniu.com/kodo-browser-Windows-x86-v1.0.18.zip",
-            "hash": "8aab510d20bfa1ef2b47a1970d0c0cc33fd68bdac5b74d99923cffd7ab009b6b"
+            "url": "https://pd.zwc365.com/https://kodo-toolbox.qiniu.com/kodo-browser-Windows-x86-v1.0.19.1.zip",
+            "hash": "5093854ba3c8034ce8413a6bb16af33a95227e60a4b4d937223cae5bd827ddc6"
         }
     },
     "shortcuts": [
