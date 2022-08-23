@@ -1,13 +1,13 @@
 ﻿{
-    "version": "0.3.28",
+    "version": "0.3.31",
     "description": "Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public transit.",
     "homepage": "https://github.com/a-b-street/abstreet",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/a-b-street/abstreet/releases/download/v0.3.28/abstreet_windows_v0_3_28.zip",
-            "hash": "c17892da7d72338e1accb8ddaa8a6181b5bc81beb9bd0c7f5fc2f3503ad1a0ea",
-            "extract_dir": "abstreet_windows_v0_3_28"
+            "url": "https://pd.zwc365.com/https://github.com/a-b-street/abstreet/releases/download/v0.3.31/abstreet_windows_v0_3_31.zip",
+            "hash": "49de5026283c7f7753cedf9cbc11509034935ba363d1c9a7df232dbdfbcbdef9",
+            "extract_dir": "abstreet_windows_v0_3_31"
         }
     },
     "bin": [
