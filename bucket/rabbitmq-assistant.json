@@ -1,10 +1,10 @@
 ﻿{
-    "version": "1.0.5.0",
+    "version": "1.0.5.3",
     "description": "RabbitMQ可视化管理与监控，深入了解您的队列、订阅与消费消息，展示完整的消息流图以及压力测试",
     "homepage": "http://www.redisant.cn/rta",
     "license": "Shareware",
-    "url": "https://pd.zwc365.com/https://download.redisant.com/package/RMQA-1.0.5.0.exe",
-    "hash": "242951cf7e1afa20976311df538a9fb2d756ce30389ddc8a0bcd23571197cc9c",
+    "url": "https://pd.zwc365.com/https://download.redisant.com/package/RMQA-1.0.5.3.exe",
+    "hash": "73794bc45746d4bfef2befa3b1d0b58b8967745334523acb4790533d7378b996",
     "suggest": {
         "dotnet-runtime": "windowsdesktop-runtime"
     },
