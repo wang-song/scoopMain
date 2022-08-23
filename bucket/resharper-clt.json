@@ -1,13 +1,13 @@
 ﻿{
-    "version": "2022.2",
+    "version": "2022.2.2",
     "description": "A standalone command line tools to run ReSharper inspections outside of Visual Studio.",
     "homepage": "https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.jetbrains.com/resharper/buy/command_line_license.html"
     },
-    "url": "https://pd.zwc365.com/https://download.jetbrains.com/resharper/dotUltimate.2022.2/JetBrains.ReSharper.CommandLineTools.2022.2.zip",
-    "hash": "1519b623dfcbf0f8c5d366a8d806dbfcb3008cb6cded0ffd2cd73a1201d1187f",
+    "url": "https://pd.zwc365.com/https://download.jetbrains.com/resharper/dotUltimate.2022.2.2/JetBrains.ReSharper.CommandLineTools.2022.2.2.zip",
+    "hash": "6ca27f64227dd523bde6abdea001e966221304bff911682c0759bb8d9c25d620",
     "bin": [
         "cleanupcode.exe",
         "inspectcode.exe"
