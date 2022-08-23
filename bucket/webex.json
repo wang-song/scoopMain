@@ -1,5 +1,5 @@
 ﻿{
-    "version": "42.7.0.23054",
+    "version": "42.8.0.23281",
     "description": "Video and audio conferencing",
     "homepage": "https://www.webex.com/",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://pd.zwc365.com/https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex.msi",
-            "hash": "312095fd537a07190212f51e94b255cd453efdec6174f97000b21e6290ed881c"
+            "hash": "0f2b163ba604bafff4f49c88e4e7bb4c95f0fac5db53feec2de23c62659ad925"
         },
         "32bit": {
             "url": "https://pd.zwc365.com/https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
-            "hash": "71ce2d35c68c55036a7549060e4d9cf72a19e12f48f0e045455e3c6673ce10a1"
+            "hash": "a5afb903e301b9ef5a75e5aac3e59110e978b044eb1da6ed48a451b83edf101d"
         }
     },
     "extract_dir": "Cisco Spark",
