@@ -1,12 +1,16 @@
 ﻿{
-    "version": "2.4",
+    "version": "2.61",
     "description": "An internet file download manager",
     "homepage": "https://github.com/filecxx/FileCentipede",
     "license": "Unknown",
+    "notes": [
+        "建议安装filecentipede后使用hold停止scoop对它的更新服务,使用软件自带的更新",
+        "scoop无法升级filecentipede注册的系统服务,这会导致filec.exe无法启动"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.4/filecxx_2.4_win_x64.zip",
-            "hash": "d3e4d04da5044e2138caa2309deede5e371627b0b4f0fa47523620b93a608c66",
+            "url": "https://pd.zwc365.com/https://github.com/filecxx/FileCentipede/releases/download/2.61/filecxx_2.61_win_x64.zip",
+            "hash": "fd9900f0492dbac1548f9dedd86640964dd71afe06bc470650a9ffe699c2ce2f",
             "bin": [
                 [
                     "fileu.exe",
