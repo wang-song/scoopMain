@@ -1,12 +1,12 @@
 ﻿{
-    "version": "4.4.1",
+    "version": "4.5.1",
     "description": "Declarative stream processing for mundane tasks and data engineering.",
     "homepage": "https://www.benthos.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/Jeffail/benthos/releases/download/v4.4.1/benthos_4.4.1_windows_amd64.tar.gz",
-            "hash": "cd5165fb152e19aba3751f53a37df522d9e2505a481a2b4c8722c94cceff180b"
+            "url": "https://pd.zwc365.com/https://github.com/Jeffail/benthos/releases/download/v4.5.1/benthos_4.5.1_windows_amd64.tar.gz",
+            "hash": "857cf9045e12f1aad3abf40e2b2dee4202d742894e2b099e9b8ee26a8442f43a"
         }
     },
     "bin": "benthos.exe",
