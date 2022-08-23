@@ -1,10 +1,10 @@
 ﻿{
-    "version": "1.1.8.2",
+    "version": "1.1.10.3",
     "description": "Redis可视化管理与监控",
     "homepage": "http://www.redisant.cn/",
     "license": "Shareware",
-    "url": "https://pd.zwc365.com/https://download.redisant.com/package/RA-1.1.8.2.exe",
-    "hash": "3d0f3fd55e107496389b438bc660b4a5fbdeb13c0e657e4979b07c11d1fbb00c",
+    "url": "https://pd.zwc365.com/https://download.redisant.com/package/RA-1.1.10.3.exe",
+    "hash": "86168cec2d424796b9d0d81b27e405cfae0328b49b6f95d2b82494663a37c461",
     "suggest": {
         "dotnet-runtime": "windowsdesktop-runtime"
     },
