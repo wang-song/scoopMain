@@ -1,12 +1,12 @@
 ﻿{
-    "version": "3.42.2",
+    "version": "3.43.1",
     "description": "Command line interface to Sourcegraph",
     "homepage": "https://github.com/sourcegraph/src-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/sourcegraph/src-cli/releases/download/3.42.2/src-cli_3.42.2_windows_amd64.tar.gz",
-            "hash": "ab9517c51ee925654264c2dcefa5a6f1e11579647601e163e9c37212ac7d0f51"
+            "url": "https://pd.zwc365.com/https://github.com/sourcegraph/src-cli/releases/download/3.43.1/src-cli_3.43.1_windows_amd64.tar.gz",
+            "hash": "dbf50b56a14e8313379000671a4d26fda738387e654cbf237d75322e0a7a73cc"
         }
     },
     "bin": "src.exe",
