@@ -1,5 +1,5 @@
 ﻿{
-    "version": "30.8b15",
+    "version": "30.8b16",
     "description": "Free Mersenne Prime Search Software",
     "homepage": "https://www.mersenne.org/download/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://www.mersenne.org/ftp_root/gimps/p95v308b15.win64.zip",
-            "hash": "f572714830feef12d6184557008704105d140372f319d0e91a1d2f8ba7f06f37"
+            "url": "https://pd.zwc365.com/https://www.mersenne.org/ftp_root/gimps/p95v308b16.win64.zip",
+            "hash": "5271da56203d19f42e1f373430cc810616a96076a77e53557a9f06356b077a61"
         },
         "32bit": {
             "url": "https://pd.zwc365.com/https://www.mersenne.org/ftp_root/gimps/p95v298b6.win32.zip",
-            "hash": "b44cb82305fbca3749e525c71e22c065b0cc683c213918fe44b5f383c4f16591"
+            "hash": "cdd32b4c358869d3f588ae430bc67d9e88a5a69506002f864adac3c477c9202a"
         }
     },
     "bin": "prime95.exe",
