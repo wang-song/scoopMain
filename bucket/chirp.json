@@ -1,13 +1,13 @@
 ﻿{
-    "version": "20220726",
+    "version": "20220822",
     "description": "A free, open-source tool for programming your amateur radio that supports a large number of manufacturers and models.",
     "homepage": "https://chirp.danplanet.com/projects/chirp/wiki/Home",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://chirp.danplanet.com/projects/chirp/repository/entry/COPYING"
     },
-    "url": "https://pd.zwc365.com/https://trac.chirp.danplanet.com/chirp_daily/LATEST/chirp-daily-20220726-win32.zip",
-    "hash": "c312a00c672232c164d6a2985ffe485892dad6505e7755a2201bc45284403f4d",
+    "url": "https://pd.zwc365.com/https://trac.chirp.danplanet.com/chirp_daily/LATEST/chirp-daily-20220822-win32.zip",
+    "hash": "e4834633967451a774abfb988c6fd9456d77c722f7fd82488bc3fe0310a2b26c",
     "bin": [
         [
             "chirpw.exe",
