@@ -1,15 +1,15 @@
 ﻿{
-    "version": "9.0.6",
+    "version": "9.1.0",
     "description": "Open platform for analytics and data monitoring",
     "homepage": "https://grafana.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://dl.grafana.com/oss/release/grafana-9.0.6.windows-amd64.zip",
-            "hash": "35bdb7393976f29bc626ef20778da4eb33e2e5f9bdacab33ce9c30a1c090c921"
+            "url": "https://pd.zwc365.com/https://dl.grafana.com/oss/release/grafana-9.1.0.windows-amd64.zip",
+            "hash": "bd9fd7ef423efd1590334d767c5b2986f81a90e5bbf5fcabb08ea0abc382f223"
         }
     },
-    "extract_dir": "grafana-9.0.6",
+    "extract_dir": "grafana-9.1.0",
     "bin": [
         [
             "bin\\grafana-server.exe",
