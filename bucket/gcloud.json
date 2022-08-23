@@ -1,5 +1,5 @@
 ﻿{
-    "version": "396.0.0",
+    "version": "398.0.0",
     "description": "Command-line interface for Google Cloud Platform products and services.",
     "homepage": "https://cloud.google.com/sdk/",
     "license": "Proprietary",
@@ -7,16 +7,16 @@
     "depends": "7zip19.00-helper",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-396.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",
-            "hash": "09716dcbe77387f25919a8e655a1b36049cde4bbec8f4b3ec5735dfbe91b69e3"
+            "url": "https://pd.zwc365.com/https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-398.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",
+            "hash": "aaa731dcfc466c70ede6ea6054ff90e858ec95af79167e1b432dc6caa68cbc2c"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-396.0.0-windows-x86-bundled-python.zip#/dl.zip_",
-            "hash": "5b1894fa4c41a64a3512082b2c9b1b4b45978493660edd2a09a0795ff67cdd31"
+            "url": "https://pd.zwc365.com/https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-398.0.0-windows-x86-bundled-python.zip#/dl.zip_",
+            "hash": "b69b321ed1932f0e0e136ffa10cf9f78a4d22bf2160d9a0fe5f3e543ba97b017"
         }
     },
     "pre_install": [
-        "Invoke-ExternalCommand 7z1900-helper -ArgumentList @('x', '-bso0', \"`\"$dir\\dl.zip_`\"\", \"`\"-o$dir`\"\") | Out-Null",
+        "Invoke-ExternalCommand 7z1900-helper -ArgumentList @('x', '-bso0', \"$dir\\dl.zip_\", \"-o$dir\") | Out-Null",
         "Move-Item \"$dir\\google-cloud-sdk\\*\" \"$dir\\\" | Out-Null",
         "Remove-Item \"$dir\\google-cloud-sdk\", \"$dir\\dl.zip_\" -Force -Recurse"
     ],
