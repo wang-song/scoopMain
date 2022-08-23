@@ -1,12 +1,12 @@
 ﻿{
-    "version": "5.53.0",
+    "version": "5.55.0",
     "description": "A cross-platform encrypted messaging service.",
     "homepage": "https://signal.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://updates.signal.org/desktop/signal-desktop-win-5.53.0.exe#/dl.7z",
-            "hash": "sha512:2c84493b018213c7d278a89c8b3d10f3f5c5ab25e6c41f6175dd6fede7f05f5d87d156ebbf67bcb4b92acdfdebfe7f78e7e4ae8f75ad16bb0398b3fb2e442ed1",
+            "url": "https://pd.zwc365.com/https://updates.signal.org/desktop/signal-desktop-win-5.55.0.exe#/dl.7z",
+            "hash": "sha512:9cc2be3e2702da084939bec8c1046c545d7b2fbf71ea2ecf5d184b53e44128b68761ea8fe0a88d69573d923c080876ce40ca3f5fb67286ee325dd5cf47f7e94b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*.exe\" -Recurse -Force"
