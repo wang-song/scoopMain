@@ -1,10 +1,10 @@
 ﻿{
     "homepage": "https://work.weixin.qq.com/",
     "description": "企业微信",
-    "version": "4.0.8.6604",
+    "version": "4.0.12.6015",
     "license": "Freeware",
-    "url": "https://pd.zwc365.com/https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.8.6604.exe#/wechat.7z",
-    "hash": "b204ded4acde4de5c71b5c25a0a57870416be1982fa87489be1451285e9a2330",
+    "url": "https://pd.zwc365.com/https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.12.6015.exe#/wechat.7z",
+    "hash": "abd67e1e01f0a74542637fce66e898637f2a876cdd21c2bf6e343f8f1ebdc79a",
     "post_install": "Start-Process -Wait \"$dir\\$version\\wxdriveinstaller.exe\" -Verb RunAs",
     "shortcuts": [
         [
