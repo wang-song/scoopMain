@@ -1,10 +1,10 @@
 ﻿{
-    "version": "2022.6.2",
+    "version": "2022.8.1",
     "description": "Password management solutions for individuals, teams, and business organizations",
     "homepage": "https://bitwarden.com",
     "license": "GPL-3.0-or-later",
-    "url": "https://pd.zwc365.com/https://github.com/bitwarden/clients/releases/download/desktop-v2022.6.2/Bitwarden-Portable-2022.6.2.exe",
-    "hash": "e8a868dbbc7a963aae278a7ac7349d26c5556f283c9f748a9bc8a0790d9405bc",
+    "url": "https://pd.zwc365.com/https://github.com/bitwarden/clients/releases/download/desktop-v2022.8.1/Bitwarden-Portable-2022.8.1.exe",
+    "hash": "8805e25f8be316de128d947efe73f3d5b921bd3e6e7b0bbe1202dd02203602d4",
     "pre_install": [
         "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
         "# copy config from non-portable version",
