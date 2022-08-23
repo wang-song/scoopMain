@@ -1,16 +1,16 @@
 ﻿{
-    "version": "1.54",
+    "version": "1.56",
     "description": "Easily drag windows when pressing the Alt key (maintained continuation of Stefan Sundin's AltDrag)",
     "homepage": "https://github.com/RamonUnch/AltSnap",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/RamonUnch/AltSnap/releases/download/1.54/AltSnap1.54bin_x64.zip",
-            "hash": "f839827133f5f63639b521f0aad6e6b809569401a1d9f13c9390b17bfd5633c9"
+            "url": "https://pd.zwc365.com/https://github.com/RamonUnch/AltSnap/releases/download/1.56/AltSnap1.56bin_x64.zip",
+            "hash": "4bfa16de934594f3906586b72814ae368de1f7b66ae0b794490481c2992b2b54"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/RamonUnch/AltSnap/releases/download/1.54/AltSnap1.54bin.zip",
-            "hash": "82aba72458740d296d63c2f4c1b556cc941f0856c903c7759a7231aace40e574"
+            "url": "https://pd.zwc365.com/https://github.com/RamonUnch/AltSnap/releases/download/1.56/AltSnap1.56bin.zip",
+            "hash": "1e5bea6bb2d7a0639ad4b07d38098226d52d4671c6929fe0ef803f7e4eccc764"
         }
     },
     "shortcuts": [
