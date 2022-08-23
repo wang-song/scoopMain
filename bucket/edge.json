@@ -1,9 +1,9 @@
 ﻿{
-    "version": "103.0.1264.77",
+    "version": "104.0.1293.63",
     "description": "Microsoft Edge is a cross-platform web browser created and developed by Microsoft",
     "homepage": "https://www.microsoft.com/zh-cn/edge",
     "license": "BSD-3-Clause",
-    "url": "https://pd.zwc365.com/https://storage.live.com/items/F66E0B358F887479!3256:/edge.7z?authkey=AMt9pKsF-dbIvEo#/dl.7z",
+    "url": "https://pd.zwc365.com/https://xmod-my.sharepoint.cn/:u:/g/personal/admin_xmod_partner_onmschina_cn/EUiGIWozGZRBugXCEZcim7MBxtryziAyq-KTBkpTYiNNuQ?download=1#/dl.7z",
     "bin": "msedge.exe",
     "shortcuts": [
         [
