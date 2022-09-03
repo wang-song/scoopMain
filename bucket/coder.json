@@ -1,12 +1,12 @@
 ﻿{
-    "version": "0.8.8",
+    "version": "0.8.11",
     "description": "Creates remote development machines so your team can develop from anywhere.",
     "homepage": "https://coder.com/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/coder/coder/releases/download/v0.8.8/coder_0.8.8_windows_amd64.zip",
-            "hash": "df1e52403d2623dcd4f0881262cfb33f1df3ba07316f481546f247a27fea558a"
+            "url": "https://pd.zwc365.com/https://github.com/coder/coder/releases/download/v0.8.11/coder_0.8.11_windows_amd64.zip",
+            "hash": "4ac4a31f1f5c0074032fda48c36431b71d7bf0cd5a1a877d1a88d06d60c6e3f6"
         }
     },
     "bin": "coder.exe",
