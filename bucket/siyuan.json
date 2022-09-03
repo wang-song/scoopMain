@@ -1,16 +1,16 @@
 ﻿{
-    "version": "2.1.9",
+    "version": "2.1.11",
     "description": "A desktop Markdown Block-Reference and Bidirectional-Link note-taking application",
     "homepage": "https://github.com/siyuan-note/siyuan",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/siyuan-note/siyuan/releases/download/v2.1.9/siyuan-2.1.9-win.exe#/dl.zip",
-            "hash": "db0bd31a50bca5bbedbf76f3dd4680348258c5a084c82d4b520cbffd336f6548"
+            "url": "https://pd.zwc365.com/https://github.com/siyuan-note/siyuan/releases/download/v2.1.11/siyuan-2.1.11-win.exe#/dl.zip",
+            "hash": "8d7e0263255fa53df4a7f166b03153329245ec0165dcb0221d25ec0a9eb4f3a4"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/siyuan-note/siyuan/releases/download/v2.1.9/siyuan-2.1.9-win32.exe#/dl.zip",
-            "hash": "4aa112b220d9373925b22f48601307f1bd8b8faae9feca5ad252aaac32b365c6"
+            "url": "https://pd.zwc365.com/https://github.com/siyuan-note/siyuan/releases/download/v2.1.11/siyuan-2.1.11-win32.exe#/dl.zip",
+            "hash": "2db46dc09454df904e29749eda72651e328f9515b09e3d5a5754e4d89714c155"
         }
     },
     "installer": {
