@@ -1,24 +1,24 @@
 ﻿{
-    "version": "9.3.4",
+    "version": "9.4.1",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
     },
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v9.3.4",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v9.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.3.4/posh-windows-amd64.exe#/oh-my-posh.exe",
-            "hash": "a49805a8aa18251bd3d83635f3817c141e40f7f405563604c8d8910ab39d6d5b"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.4.1/posh-windows-amd64.exe#/oh-my-posh.exe",
+            "hash": "0b9485fb16d47a9f88e1c70b9dc1429720189f4a6a4e3a9d5d8f0717daa9ad5e"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.3.4/posh-windows-386.exe#/oh-my-posh.exe",
-            "hash": "75c65ff42e1bbb6e6d74cd14ac7fb8baadc3b59a1494716eaf2b0f8aeeaf6d04"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.4.1/posh-windows-386.exe#/oh-my-posh.exe",
+            "hash": "7ffdce3968ba782e1473ee72c55b6b2c275c22d66190abb4caa9b59a968b3837"
         },
         "arm64": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.3.4/posh-windows-arm64.exe#/oh-my-posh.exe",
-            "hash": "b5763448d668569d7a89f0d1affd576df4c09a41c0497d417bd8e523089152cb"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.4.1/posh-windows-arm64.exe#/oh-my-posh.exe",
+            "hash": "41070b3aa151168082e25936b1295ddc2e27cc3513086639a2a4d440a86551dd"
         }
     },
     "bin": "oh-my-posh.exe",
