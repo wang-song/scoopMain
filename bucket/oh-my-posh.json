@@ -1,24 +1,24 @@
 ﻿{
-    "version": "9.5.0",
+    "version": "10.1.0",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
     },
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v9.5.0",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v10.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.5.0/posh-windows-amd64.exe#/oh-my-posh.exe",
-            "hash": "a34d37c12340bf6e35a0b94c1d6334b2f84935d76a00fdc8b003f3eb6126d41c"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v10.1.0/posh-windows-amd64.exe#/oh-my-posh.exe",
+            "hash": "b705718e95803b5571c21029d9a5d28906b5deedf10ee7027e951d66c72a2cf2"
         },
         "32bit": {
-            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.5.0/posh-windows-386.exe#/oh-my-posh.exe",
-            "hash": "71efe601421c4ad75be399a3993ee0cc5ea2e97e44cbdc1eba234274a50500ea"
+            "url": "https://pd.zwc365.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v10.1.0/posh-windows-386.exe#/oh-my-posh.exe",
+            "hash": "6984267899d18e292039601ce21e0f19f0f079076353f01f9949bae571e92ec3"
         },
         "arm64": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v9.5.0/posh-windows-arm64.exe#/oh-my-posh.exe",
-            "hash": "01123142225a23902d26d8e1c4e5151231895d1ab43856ca6e21042beb3657b9"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v10.1.0/posh-windows-arm64.exe#/oh-my-posh.exe",
+            "hash": "b71a720ea57409d1985faee5dab4fa04427f1166c8aa52fd1c63a9b562ab73f6"
         }
     },
     "bin": "oh-my-posh.exe",
